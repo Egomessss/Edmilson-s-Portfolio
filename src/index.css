@@ -7,3 +7,12 @@
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;  
 }
 
+@font-face {
+  font-family: aquirelight;
+  src: url(/fonts/AquireLight-YzE0o.otf);
+}
+
+@font-face {
+  font-family: aquirebold;
+  src: url(/fonts/AquireBold-8Ma60.otf);
+}
