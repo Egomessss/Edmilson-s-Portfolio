@@ -7,25 +7,58 @@ function Navbar() {
   const handleNav = () => {
     setNav(!nav)
   }
+  
+
+  const underline = "bg-left-bottom bg-gradient-to-r from-neongreen to-neongreen bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
 
   return (
-    <nav>
+    <nav className="relative">
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
-        <h1 className="w-full text-3xl font-aquirebold">Home</h1>
+        <h1 className="w-full text-3xl font-aquirebold cursor-pointer">Home</h1>
         <ul className="hidden md:flex whitespace-nowrap">
           <li className="p-4">
             <a
               className="group text-white transition-all duration-300 ease-in-out"
               href="#"
             >
-              <span className="bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
-               About
+              <span className={underline}>
+                About
               </span>
             </a>
           </li>
-          <li className="p-4">Why You Should Hire Me</li>
-          <li className="p-4">Projects</li>
-          <li className="p-4">Contact Me</li>
+
+          <li className="p-4">
+            {" "}
+            <a
+              className="group text-white transition-all duration-300 ease-in-out"
+              href="#"
+            >
+              <span className={underline}>
+                Why You Should Hire Me
+              </span>
+            </a>
+          </li>
+          <li className="p-4">
+            <a
+              className="group text-white transition-all duration-300 ease-in-out"
+              href="#"
+            >
+              <span className={underline}>
+                Projects
+              </span>
+            </a>
+          </li>
+          <li className="p-4">
+            {" "}
+            <a
+              className="group text-white transition-all duration-300 ease-in-out"
+              href="#"
+            >
+              <span className={underline}>
+                Contact Me
+              </span>
+            </a>
+          </li>
         </ul>
         <div
           onClick={handleNav}
@@ -40,8 +73,8 @@ function Navbar() {
         <div
           className={
             !nav
-              ? "fixed left-0 top-0 h-full w-[60%] border-r border-r-white easy-in-out duration-500"
-              : "fixed left-[-100%] top-0 h-full w-[60%] border-r border-r-white"
+              ? "h-full w-[80%] easy-in-out duration-500 absolute top-14 right-0"
+              : "fixed right-[-100%] top-0 h-full w-[60%]"
           }
         >
           <ul className="pt-20 uppercase p-4">

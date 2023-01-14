@@ -10,6 +10,9 @@ module.exports = {
         aquirelight: ['aquirelight', 'sans-serif'],
         aquirebold: ['aquirebold', 'sans-serif'],
       },
+      colors:{
+        neongreen:"#0fff50"
+      },
     },
   },
   plugins: [],
