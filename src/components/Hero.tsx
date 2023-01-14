@@ -1,61 +1,48 @@
 import React from "react"
 import { motion } from "framer-motion"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
-import BackGroundCircles from "./BackGroundCircles"
+import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai"
 
 function Hero() {
   const [text, count] = useTypewriter({
-    words: ["Tech Lover", "Problem Solver"],
+    words: ["A Frontend Developer", "Tech Lover", "Problem Solver"],
     loop: true,
     delaySpeed: 2000,
   })
   return (
     <div>
- <motion.div
-    initial={{
-        x:500,
-        opacity:0,
-        scale:0.5,
-    }}
-    animate={{
-        x:0,
-        opacity:1,
-        scale:1,
-    }}
-    transition={{duration:1}}>
-
-    </motion.div>
-    
-    <motion.div
-initial={{
-    x:500,
-    opacity:0,
-    scale:0.5,
-}}
-animate={{
-    x:0,
-    opacity:1,
-    scale:1,
-}}
-transition={{duration:1}}>
-    {/* adicionar text a dizer"this is the story of a developer who could center a div in his first try" no inicio depois falho a center div , depois mete no centro, e digo "ok first try is impossible, but he gets the job done" isto em h1 acima da animacao do hero e depois dá fade out*/}
-    <div className="h-screen flex flex-col space-y-12 items-center justify-center text-center overflow-hidden">
-      <BackGroundCircles />
-      <img
-        src=""
-        alt=""
-      />
-      <h1>Hi I'm Edmilson Gomes</h1>
-      <h2>
-        <span>{text}</span>
-        <Cursor cursorColor="white" />
-      </h2>
+      <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+        <h1 className="text-6xl">Hi! I'm Edmilson Gomes</h1>
+        <h2 className="text-3xl">
+          <span>{text}</span>
+          <Cursor cursorColor="white" />
+        </h2>
+        <div className="flex gap-2">
+          <a
+            href="https://www.linkedin.com/in/egomessss/"
+            target="_blank"
+          >
+            <AiFillLinkedin className="text-4xl hover:fill-current hover:text-neongreen" />
+          </a>
+          <a
+            href="https://github.com/Egomessss/Egomessss"
+            target="_blank"
+          >
+            {" "}
+            <AiFillGithub className="text-4xl hover:fill-current hover:text-neongreen" />
+          </a>
+        </div>
+        <a
+          href="#_"
+          className="relative px-6 py-3 font-bold text-black group"
+        >
+          <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-neongreen group-hover:translate-x-0 group-hover:translate-y-0"></span>
+          <span className="absolute inset-0 w-full h-full border-4 border-white"></span>
+          <span className="relative font-aquirebold">Resume</span>
+        </a>
+      </div>
     </div>
-    </motion.div>
-    </div>
-   
   )
 }
 
 export default Hero
- 
