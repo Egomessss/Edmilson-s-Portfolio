@@ -1,18 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Lato:wght@400;700&family=Montserrat&display=swap');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;  
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box; 
 }
 
 @font-face {
   font-family: aquirelight;
-  src: url(/fonts/AquireLight-YzE0o.otf);
+  src: url(./fonts/AquireLight-YzE0o.otf);
 }
 
 @font-face {
   font-family: aquirebold;
-  src: url(/fonts/AquireBold-8Ma60.otf);
+  src: url(./fonts/AquireBold-8Ma60.otf);
 }

@@ -1,8 +1,10 @@
-import React from 'react'
+import React from "react"
 
 function Navbar() {
   return (
-    <div className="text-white">Navbar</div>
+    <nav>
+      <h1 className="font-aquirebold text-4xl">hello</h1>
+    </nav>
   )
 }
 
