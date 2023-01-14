@@ -7,9 +7,9 @@ function Navbar() {
   const handleNav = () => {
     setNav(!nav)
   }
-  
 
-  const underline = "bg-left-bottom bg-gradient-to-r from-neongreen to-neongreen bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+  const underline =
+    "bg-left-bottom bg-gradient-to-r from-neongreen to-neongreen bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
 
   return (
     <nav className="relative">
@@ -21,9 +21,7 @@ function Navbar() {
               className="group text-white transition-all duration-300 ease-in-out"
               href="#"
             >
-              <span className={underline}>
-                About
-              </span>
+              <span className={underline}>About</span>
             </a>
           </li>
 
@@ -33,9 +31,7 @@ function Navbar() {
               className="group text-white transition-all duration-300 ease-in-out"
               href="#"
             >
-              <span className={underline}>
-                Why You Should Hire Me
-              </span>
+              <span className={underline}>Why You Should Hire Me</span>
             </a>
           </li>
           <li className="p-4">
@@ -43,20 +39,24 @@ function Navbar() {
               className="group text-white transition-all duration-300 ease-in-out"
               href="#"
             >
-              <span className={underline}>
-                Projects
-              </span>
+              <span className={underline}>Experience</span>
             </a>
           </li>
           <li className="p-4">
-            {" "}
             <a
               className="group text-white transition-all duration-300 ease-in-out"
               href="#"
             >
-              <span className={underline}>
-                Contact Me
-              </span>
+              <span className={underline}>Projects</span>
+            </a>
+          </li>
+
+          <li className="p-4">
+            <a
+              className="group text-white transition-all duration-300 ease-in-out"
+              href="#"
+            >
+              <span className={underline}>Contact Me</span>
             </a>
           </li>
         </ul>
@@ -64,7 +64,7 @@ function Navbar() {
           onClick={handleNav}
           className="block md:hidden"
         >
-          {!nav ? (
+          {nav ? (
             <RiCloseLine className="text-3xl" />
           ) : (
             <RiMenu5Line className="text-3xl" />
@@ -72,18 +72,28 @@ function Navbar() {
         </div>
         <div
           className={
-            !nav
-              ? "h-full w-[80%] easy-in-out duration-500 absolute top-14 right-0"
+            nav
+              ? "h-full w-[80%] easy-in-out duration-500 absolute top-14 right-0 md:hidden"
               : "fixed right-[-100%] top-0 h-full w-[60%]"
           }
+          //  !prevent dropdown from showing when it reaches a certain width
         >
           <ul className="pt-20 uppercase p-4">
-            <li className="p-4 border-b border-white">About</li>
-            <li className="p-4 border-b border-white">
+            <li className="p-4 border-b border-white cursor-pointer hover:underline">
+              About
+            </li>
+            <li className="p-4 border-b border-white cursor-pointer hover:underline">
               Why You Should Hire Me
             </li>
-            <li className="p-4 border-b border-white">Projects</li>
-            <li className="p-4 border-b border-white">Contact Me</li>
+            <li className="p-4 border-b border-white cursor-pointer hover:underline">
+              Experience
+            </li>
+            <li className="p-4 border-b border-white cursor-pointer hover:underline">
+              Projects
+            </li>
+            <li className="p-4 border-b border-white cursor-pointer hover:underline">
+              Contact Me
+            </li>
           </ul>
         </div>
       </div>
