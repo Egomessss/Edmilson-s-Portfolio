@@ -9,7 +9,7 @@ import {
 function SkillsCard() {
   return (
     <div className="grid md:grid-cols-4 gap-8">
-      <div className="w-full border bg-gray-900 border-gray-700">
+      <div className="w-full bg-gray-800  border-b-2 border-r-2 ">
         <div className="p-5">
           <AiOutlineSearch className="text-3xl mb-2" />
           <h3 className="mb-2 text-2xl tracking-tight">
@@ -22,7 +22,7 @@ function SkillsCard() {
           </p>
         </div>
       </div>
-      <div className="w-full border bg-gray-900 border-gray-700">
+      <div className="w-full bg-gray-800  border-b-2 border-r-2">
         <div className="p-5">
           <AiOutlineShake className="text-3xl mb-2" />
           <h3 className="mb-2 text-2xl tracking-tight">
@@ -35,7 +35,7 @@ function SkillsCard() {
           </p>
         </div>
       </div>
-      <div className="w-full border bg-gray-900 border-gray-700">
+      <div className="w-full bg-gray-800  border-b-2 border-r-2">
         <div className="p-5">
           <AiOutlineCode className="text-3xl mb-2" />
           <h3 className="mb-2 text-2xl tracking-tight">
@@ -48,7 +48,7 @@ function SkillsCard() {
           </p>
         </div>
       </div>
-      <div className="w-full border bg-gray-900 border-gray-700">
+      <div className="w-full bg-gray-800  border-b-2 border-r-2">
         <div className="p-5">
           <AiOutlineUser className="text-3xl mb-2" />
           <h3 className="mb-2 text-2xl tracking-tight">
