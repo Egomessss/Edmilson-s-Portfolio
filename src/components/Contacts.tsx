@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "./Footer"
 // !para validar form
 // https://tailwindcomponents.com/component/floating-label-contact-form
 
@@ -81,6 +82,7 @@ function Contacts() {
           </form>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

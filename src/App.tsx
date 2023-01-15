@@ -19,7 +19,6 @@ function App() {
       <Experience />
       <Projects />
       <Contacts />
-      <Footer />
     </div>
   )
 }

@@ -2,16 +2,16 @@ import React from "react"
 import { AiFillApi } from "react-icons/ai"
 import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa"
 import { SiTailwindcss, SiJavascript, SiTypescript } from "react-icons/si"
-import {DiGit} from "react-icons/di"
+import { DiGit } from "react-icons/di"
 function Stack() {
   const divSTyle =
     "group relative flex flex-col gap-2 justify-center items-center w-[120px] h-[120px] "
   const iconStyle =
-    " p-2 hover:text-neongreen text-7xl group relative flex  border-b-4 border-white cursor-pointer"
+    " p-2 hover:text-neongreen text-7xl group relative flex border-b-4 border-white cursor-pointer"
   const textStyle = "text-center font-aquirebold"
 
   return (
-    <div className="flex flex-row gap-16 mt-20 flex-wrap justify-center items-center">
+    <div className="flex flex-row gap-8 mt-12 flex-wrap justify-center items-center">
       <div className={divSTyle}>
         <FaHtml5 className={iconStyle} />
         <p className={textStyle}>HTML</p>
