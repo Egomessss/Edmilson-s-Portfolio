@@ -5,32 +5,40 @@ import { SiTailwindcss, SiJavascript, SiTypescript } from "react-icons/si"
 
 function Stack() {
   const divSTyle =
-    "group relative flex justify-center align-middle w-[100] h-[100]"
+    "group relative flex flex-col gap-2 justify-center items-center w-[120px] h-[120px] "
   const iconStyle =
-    "hover:text-neongreen text-7xl group relative flex rounded-full border-b-2 border-white cursor-pointer"
+    " p-2 hover:text-neongreen text-7xl group relative flex  border-b-4 border-white cursor-pointer"
+  const textStyle = "text-center font-aquirebold"
 
   return (
-    <div className="flex flex-row gap-16 mt-10 flex-wrap justify-center align-middle">
+    <div className="flex flex-row gap-16 mt-40 flex-wrap justify-center items-center">
       <div className={divSTyle}>
         <FaHtml5 className={iconStyle} />
+        <p className={textStyle}>HTML</p>
       </div>
       <div className={divSTyle}>
         <FaCss3Alt className={iconStyle} />
+        <p className={textStyle}>CSS</p>
       </div>
       <div className={divSTyle}>
         <SiTailwindcss className={iconStyle} />
+        <p className={textStyle}>Tailwind</p>
       </div>
       <div className={divSTyle}>
         <SiJavascript className={iconStyle} />
+        <p className={textStyle}>Javascript</p>
       </div>
       <div className={divSTyle}>
         <SiTypescript className={iconStyle} />
+        <p className={textStyle}>Typescript</p>
       </div>
       <div className={divSTyle}>
         <FaReact className={iconStyle} />
+        <p className={textStyle}>REact</p>
       </div>
       <div className={divSTyle}>
         <AiFillApi className={iconStyle} />
+        <p className={textStyle}>API's</p>
       </div>
     </div>
   )
