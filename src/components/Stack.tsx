@@ -2,7 +2,7 @@ import React from "react"
 import { AiFillApi } from "react-icons/ai"
 import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa"
 import { SiTailwindcss, SiJavascript, SiTypescript } from "react-icons/si"
-
+import {DiGit} from "react-icons/di"
 function Stack() {
   const divSTyle =
     "group relative flex flex-col gap-2 justify-center items-center w-[120px] h-[120px] "
@@ -11,7 +11,7 @@ function Stack() {
   const textStyle = "text-center font-aquirebold"
 
   return (
-    <div className="flex flex-row gap-16 mt-40 flex-wrap justify-center items-center">
+    <div className="flex flex-row gap-16 mt-20 flex-wrap justify-center items-center">
       <div className={divSTyle}>
         <FaHtml5 className={iconStyle} />
         <p className={textStyle}>HTML</p>
@@ -39,6 +39,10 @@ function Stack() {
       <div className={divSTyle}>
         <AiFillApi className={iconStyle} />
         <p className={textStyle}>API's</p>
+      </div>
+      <div className={divSTyle}>
+        <DiGit className={iconStyle} />
+        <p className={textStyle}>Git</p>
       </div>
     </div>
   )
