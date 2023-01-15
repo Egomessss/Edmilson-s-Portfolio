@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <nav className="relative">
-      <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
+      <div className="flex justify-between items-center h-24">
         <h1 className="w-full text-3xl font-aquirebold cursor-pointer">Home</h1>
         <ul className="hidden md:flex whitespace-nowrap">
           <li className="p-4">
@@ -21,7 +21,7 @@ function Navbar() {
               className="group text-white transition-all duration-300 ease-in-out"
               href="#"
             >
-              <span className={underline}>About</span>
+              <span className={underline}>About Me</span>
             </a>
           </li>
 
@@ -71,7 +71,7 @@ function Navbar() {
         >
           <ul className="pt-20 uppercase p-4">
             <li className="p-4 border-b border-white cursor-pointer hover:underline">
-              About
+              About Me
             </li>
             <li className="p-4 border-b border-white cursor-pointer hover:underline">
               Why You Should Hire Me

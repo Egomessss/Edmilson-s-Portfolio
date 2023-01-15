@@ -5,7 +5,7 @@ import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai"
 
 function Hero() {
   const [text, count] = useTypewriter({
-    words: ["A Frontend Developer", "Tech Lover", "Problem Solver"],
+    words: ["A Frontend Developer That Can Center A Div", "Tech Lover", "Problem Solver"],
     loop: true,
     delaySpeed: 2000,
   })
