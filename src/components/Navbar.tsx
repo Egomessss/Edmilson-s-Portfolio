@@ -28,7 +28,7 @@ function Navbar() {
           <li className="p-4">
             {" "}
             <a
-              className="group text-white transition-all duration-300 ease-in-out"
+              className="group text-white transition-all duration-500 ease-in-out"
               href="#"
             >
               <span className={underline}>Why You Should Hire Me</span>
@@ -36,7 +36,7 @@ function Navbar() {
           </li>
           <li className="p-4">
             <a
-              className="group text-white transition-all duration-300 ease-in-out"
+              className="group text-white transition-all duration-500 ease-in-out"
               href="#"
             >
               <span className={underline}>Experience</span>
@@ -44,7 +44,7 @@ function Navbar() {
           </li>
           <li className="p-4">
             <a
-              className="group text-white transition-all duration-300 ease-in-out"
+              className="group text-white transition-all duration-500 ease-in-out"
               href="#"
             >
               <span className={underline}>Projects</span>
