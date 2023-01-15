@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Contacts from "./components/Contacts"
 import Education from "./components/Education"
 import Experience from "./components/Experience"
 import Footer from "./components/Footer"
@@ -17,7 +18,8 @@ function App() {
       <Education />
       <Experience />
       <Projects />
-      <Footer/>
+      <Contacts />
+      <Footer />
     </div>
   )
 }
