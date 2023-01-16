@@ -4,8 +4,8 @@ import Experience from "./Experience"
 function Education() {
   return (
     <div className="h-screen">
-      <h2 className="text-3xl">Education</h2>
-      <div className="h-30 w-full flex justify-center items-center">
+      <h2 className="text-3xl mb-32">Education</h2>
+      <div className="h-30 flex justify-center items-center">
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
