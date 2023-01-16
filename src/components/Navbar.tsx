@@ -81,11 +81,11 @@ function Navbar() {
           className={
             nav
               ? "h-full w-[80%] easy-in-out duration-500 absolute top-14 right-0 md:hidden"
-              : "fixed right-[-100%] top-0 h-full w-[60%]"
+              : "fixed right-[-100%] top-0 h-full w-[60%] "
           }
           //  !prevent dropdown from showing when it reaches a certain width
         >
-          <ul className="pt-20 uppercase p-4">
+          <ul className="pt-20 uppercase p-4 bg-gray-800">
             <li className="p-4 border-b border-white cursor-pointer hover:underline">
               About Me
             </li>
