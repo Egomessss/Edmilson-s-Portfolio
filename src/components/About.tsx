@@ -7,8 +7,8 @@ function About() {
   return (
     <div className="h-screen">
       <h2 className="text-3xl mb-8">About Me</h2>
-      <div className=" flex flex-col gap-8">
-        <div className="bg-gray-800">
+      <div className=" flex flex-col gap-4">
+        <div className="">
           <p>
             Hi there! I'm Edmilson, a front-end developer from Lisbon, Portugal
             who has passion for problem-solving and creating beautiful and
@@ -22,7 +22,7 @@ function About() {
           </p>
         </div>
         <br />
-        <div className="bg-gray-800">
+        <div className="">
           <p>
             I enjoy the challenge of taking a project from conception to
             completion, and I pride myself on my ability to troubleshoot and
@@ -34,8 +34,8 @@ function About() {
             together on a project.
           </p>
         </div>
-        <div className="mt-8">
-          <h2 className="text-3xl mb-5">Why You Should Hire Me</h2>
+        <div className="mt-28">
+          <h3 className="mb-5">My Coding Phylosophy and Tools</h3>
           <p className="mb-5">
             When buidling or cloning web projects, I strongly adhere to these
             principles which make my websites both unique and scaleable, while

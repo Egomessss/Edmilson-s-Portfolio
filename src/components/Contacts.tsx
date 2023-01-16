@@ -6,7 +6,7 @@ import Footer from "./Footer"
 function Contacts() {
   return (
     <div className="">
-      <h2 className="text-4xl font-medium">Contact Me</h2>
+      <h2 className=" font-medium">Contact Me</h2>
       <div className="flex items-center justify-start mt-20">
         <div className="mx-auto w-full max-w-lg">
           <p className="mt-3"></p>

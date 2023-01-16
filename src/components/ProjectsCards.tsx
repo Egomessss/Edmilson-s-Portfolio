@@ -14,7 +14,7 @@ function ProjectsCards() {
         <p className="text-neongreen m-2">
           Typescript | React | Tailwind | Api{" "}
         </p>
-        <p className="text-white text-center">
+        <p className=" text-center">
           Here are the biggest enterprise technology acquisitions of 2021 so
           far, in reverse chronological order.
         </p>

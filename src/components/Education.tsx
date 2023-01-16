@@ -4,7 +4,7 @@ import Experience from "./Experience"
 function Education() {
   return (
     <div className="h-screen">
-      <h2 className="text-3xl mb-32">Education</h2>
+      <h2 className="mb-32">Education</h2>
       <div className="h-30 flex justify-center items-center">
         <ol className="relative border-l border-gray-200">
           <li className="mb-10 ml-4">
@@ -12,7 +12,7 @@ function Education() {
             <time className="mb-1 text-sm font-normal leading-none  ">
               2019-2022
             </time>
-            <h3 className="text-lg font-semibold  ">Urban Planning </h3>
+            <h3 className="font-semibold  ">Urban Planning </h3>
             <p className="mb-4 text-base font-normal ">
               Instituto de Geografia e Ordenamento do Território
             </p>
@@ -22,7 +22,7 @@ function Education() {
             <time className="mb-1 text-sm font-normal leading-none  ">
               2022-
             </time>
-            <h3 className="text-lg font-semibold  ">Computer Science</h3>
+            <h3 className="font-semibold  ">Computer Science</h3>
             <p className="mb-4 text-base font-normal ">Universidade Aberta</p>
           </li>
         </ol>

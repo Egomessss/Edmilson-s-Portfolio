@@ -3,7 +3,7 @@ import React from "react"
 function Footer() {
   return (
     <footer className="h-24 mt-48">
-      <span className="block text-sm text-white sm:text-center">
+      <span className="block text-white sm:text-center">
         ©
         <a
           href="https://flowbite.com/"
