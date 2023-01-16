@@ -4,9 +4,9 @@ import ProjectsCards from "./ProjectsCards"
 
 function Projects() {
   return (
-    <div>
+    <div className="h-screen">
       <h2 className="text-3xl py-5">Projects</h2>
-      <a
+      <a className="inline-block"
         href="https://github.com/Egomessss/Egomessss"
         target="_blank"
       >
