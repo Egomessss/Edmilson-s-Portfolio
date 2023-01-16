@@ -26,19 +26,17 @@ function App() {
           <About />
         </section>
         <section>
-          <Skills />
-        </section>
-        <section>
           <Education />
         </section>
-        <section>
-          <Experience />
-        </section>
+       
         <section>
           <Projects />
         </section>
-        <footer>
+        <section>
           <Contacts />
+        </section>
+        <footer>
+          <Footer />
         </footer>
       </body>
     </div>

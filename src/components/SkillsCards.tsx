@@ -8,7 +8,7 @@ import {
 
 function SkillsCard() {
   return (
-    <div className="grid md:grid-cols-4 gap-8">
+    <div className="grid md:grid-cols-4 gap-4">
       <div className="w-full bg-gray-800  border-b-2 border-r-2 ">
         <div className="p-5">
           <AiOutlineSearch className="text-3xl mb-2" />

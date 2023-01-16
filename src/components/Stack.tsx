@@ -5,13 +5,13 @@ import { SiTailwindcss, SiJavascript, SiTypescript } from "react-icons/si"
 import { DiGit } from "react-icons/di"
 function Stack() {
   const divSTyle =
-    "group relative flex flex-col gap-2 justify-center items-center w-[120px] h-[120px] "
+    "group relative flex flex-col gap-2 justify-center items-center w-[80px] h-[120px] "
   const iconStyle =
     " p-2 hover:text-neongreen text-7xl group relative flex border-b-4 border-white cursor-pointer"
   const textStyle = "text-center font-aquirebold"
 
   return (
-    <div className="flex flex-row gap-8 mt-12 flex-wrap justify-center items-center">
+    <div className="flex flex-row gap-8 mt-6 flex-wrap justify-center items-center">
       <div className={divSTyle}>
         <FaHtml5 className={iconStyle} />
         <p className={textStyle}>HTML</p>
