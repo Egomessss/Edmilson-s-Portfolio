@@ -57,7 +57,6 @@ function Contacts() {
               <div className="relative z-0 col-span-2">
                 <textarea
                   name="message"
-                  rows="5"
                   className="peer block w-full appearance-none border-0 border-b  bg-transparent py-2.5 px-0 text-md white focus:border-neongreen focus:outline-none focus:ring-0"
                   placeholder=" "
                 ></textarea>

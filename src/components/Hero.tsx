@@ -3,15 +3,20 @@ import { motion } from "framer-motion"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai"
 
+
 function Hero() {
   const [text, count] = useTypewriter({
-    words: ["A Frontend Developer That Can Center A Div", "Tech Lover", "Problem Solver"],
+    words: [
+      "A Frontend Developer That Can Center A Div",
+      "Tech Lover",
+      "Problem Solver",
+    ],
     loop: true,
     delaySpeed: 2000,
   })
   return (
-    <div>
-      <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className=" h-screen">
+      <div className=" flex flex-col space-y-8 items-center justify-center text-center overflow-hidden mt-40">
         <h1 className="text-6xl">Hi! I'm Edmilson Gomes</h1>
         <h2 className="text-3xl">
           <span>{text}</span>

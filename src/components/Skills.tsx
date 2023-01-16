@@ -4,7 +4,7 @@ import Stack from "./Stack"
 
 function Skills() {
   return (
-    <div className="h-screen">
+    <div className="">
       <h2 className="text-3xl mb-5">Why You Should Hire Me</h2>
       <h3 className="text-xl mb-5">Skills & Tech Stack</h3>
       <p className="mb-5">

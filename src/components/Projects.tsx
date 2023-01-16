@@ -1,11 +1,18 @@
 import React from "react"
+import { AiFillGithub } from "react-icons/ai"
 import ProjectsCards from "./ProjectsCards"
 
 function Projects() {
   return (
-    <div className="h-screen">
+    <div>
       <h2 className="text-3xl py-5">Projects</h2>
-      <div className="flex flex-row gap-6 mt-20 flex-wrap justify-center items-center">
+      <a
+        href="https://github.com/Egomessss/Egomessss"
+        target="_blank"
+      >
+        <AiFillGithub className="text-5xl hover:fill-current hover:text-neongreen h-[50px]" />
+      </a>
+      <div className="flex flex-row gap-6 mt-14 flex-wrap justify-center items-center">
         <ProjectsCards />
         <ProjectsCards />
         <ProjectsCards />
