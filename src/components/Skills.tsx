@@ -4,7 +4,7 @@ import Stack from "./Stack"
 
 function Skills() {
   return (
-    <div className="h-screen">
+    <div className="mt-8">
       <h2 className="text-3xl mb-5">Why You Should Hire Me</h2>
       <p className="mb-5">
         When buidling or cloning web projects, I strongly adhere to these
