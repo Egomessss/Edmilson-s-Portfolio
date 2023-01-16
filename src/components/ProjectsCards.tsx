@@ -10,9 +10,7 @@ function ProjectsCards() {
       />
       {/* Hover effect */}
       <div className=" flex flex-col max-w-sm h-full opacity-0 group-hover:opacity-100 duration-300 absolute inset-x-0 bottom-0 justify-center items-center bg-gray-800">
-        <h3 className="text tracking-tight text-gray-900 dark:text-white">
-          Amazon E-commerce Store Clone
-        </h3>
+        <h3 className="text tracking-tight  ">Amazon E-commerce Store Clone</h3>
         <p className="text-neongreen m-2">
           Typescript | React | Tailwind | Api{" "}
         </p>

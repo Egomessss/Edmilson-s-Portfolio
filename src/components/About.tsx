@@ -8,7 +8,7 @@ function About() {
     <div className="h-screen">
       <h2 className="text-3xl mb-8">About Me</h2>
       <div className=" flex flex-col gap-8">
-        <div className="bg-gray-800  border-b-2 border-r-2">
+        <div className="bg-gray-800">
           <p>
             Hi there! I'm Edmilson, a front-end developer from Lisbon, Portugal
             who has passion for problem-solving and creating beautiful and
@@ -22,7 +22,7 @@ function About() {
           </p>
         </div>
         <br />
-        <div className="bg-gray-800  border-b-2 border-r-2">
+        <div className="bg-gray-800">
           <p>
             I enjoy the challenge of taking a project from conception to
             completion, and I pride myself on my ability to troubleshoot and
