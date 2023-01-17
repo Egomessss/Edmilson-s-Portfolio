@@ -2,7 +2,7 @@ import React from "react"
 
 function ProjectsCards() {
   return (
-    <div className="flex flex-row max-w-[100px] md:max-w-[404px] max-h-[330px] relative group">
+    <div className="flex  max-w-100% md:max-w-[404px] max-h-[330px] relative group">
       <img
         className="pointer"
         src="src\assets\images\project1.webp"
