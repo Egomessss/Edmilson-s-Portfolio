@@ -5,7 +5,7 @@ import Stack from "./Stack"
 
 function About() {
   return (
-    <div className="h-screen">
+    <div className="md:h-screen">
       <h2 className="text-3xl mb-8">About Me</h2>
       <div className=" flex flex-col gap-1">
         <div className="">
