@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="h-screen">
       <h2 className="text-3xl mb-8">About Me</h2>
-      <div className=" flex flex-col gap-4">
+      <div className=" flex flex-col gap-1">
         <div className="">
           <p>
             Hi there! I'm Edmilson, a front-end developer from Lisbon, Portugal
@@ -34,7 +34,7 @@ function About() {
             together on a project.
           </p>
         </div>
-        <div className="mt-28">
+        <div className="mt-4">
           <h3 className="mb-5">My Coding Phylosophy and Tools</h3>
           <p className="mb-5">
             When buidling or cloning web projects, I strongly adhere to these

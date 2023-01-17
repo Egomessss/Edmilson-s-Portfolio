@@ -11,7 +11,7 @@ function Stack() {
   const textStyle = "text-center font-aquirebold"
 
   return (
-    <div className="flex flex-row gap-8 mt-24 flex-wrap justify-center items-center">
+    <div className="flex flex-row gap-8 mt-4 flex-wrap justify-center items-center">
       <div className={divSTyle}>
         <FaHtml5 className={iconStyle} />
         <p className={textStyle}>HTML</p>

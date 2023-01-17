@@ -9,8 +9,8 @@ import {
 function SkillsCard() {
   return (
     <div className="grid md:grid-cols-4 gap-4">
-      <div className="w-full  border-b-2 border-r-2 ">
-        <div className="p-5">
+      <div className="w-full border-b-2 border-r-2 ">
+        <div className="p-1">
           <AiOutlineSearch className="text-3xl mb-2" />
           <h4 className="mb-2 tracking-tight">
             SEO(Search Engine Optimization)
@@ -23,7 +23,7 @@ function SkillsCard() {
         </div>
       </div>
       <div className="w-full  border-b-2 border-r-2">
-        <div className="p-5">
+        <div className="p-1">
           <AiOutlineShake className="text-3xl mb-2" />
           <h4 className="mb-2 tracking-tight">
             SEO(Search Engine Optimization)
@@ -36,7 +36,7 @@ function SkillsCard() {
         </div>
       </div>
       <div className="w-full  border-b-2 border-r-2">
-        <div className="p-5">
+        <div className="p-1">
           <AiOutlineCode className="text-3xl mb-2" />
           <h4 className="mb-2 tracking-tight">
             SEO(Search Engine Optimization)
@@ -49,7 +49,7 @@ function SkillsCard() {
         </div>
       </div>
       <div className="w-full  border-b-2 border-r-2">
-        <div className="p-5">
+        <div className="p-1">
           <AiOutlineUser className="text-3xl mb-2" />
           <h4 className="mb-2 tracking-tight">
             SEO(Search Engine Optimization)
