@@ -5,7 +5,7 @@ import Footer from "./Footer"
 
 function Contacts() {
   return (
-    <div className="mt-32 md:mt-0 md:h-screen">
+    <div className="mt-32 md:mt-16">
       <h2 className=" font-medium">Contact Me</h2>
       <div className="flex items-center justify-start mt-20">
         <div className="mx-auto w-full max-w-lg">

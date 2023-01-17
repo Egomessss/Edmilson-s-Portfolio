@@ -2,7 +2,7 @@ import React from "react"
 
 function Footer() {
   return (
-    <footer className="h-24 mt-48">
+    <footer className="h-24 mt-60">
       <span className="block text-white sm:text-center">
         ©
         <a
