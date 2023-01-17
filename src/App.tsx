@@ -28,7 +28,7 @@ function App() {
         <section>
           <Education />
         </section>
-        {/* <section>
+        <section>
           <Projects />
         </section>
         <section>
@@ -36,7 +36,7 @@ function App() {
         </section>
         <footer>
           <Footer />
-        </footer> */}
+        </footer>
       </body>
     </div>
   )

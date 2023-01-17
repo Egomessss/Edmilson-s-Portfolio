@@ -3,7 +3,7 @@ import { TbError404 } from "react-icons/tb"
 
 function Experience() {
   return (
-    <div className="mt-40">
+    <div className="mt-12">
       <h2 className="">Experience</h2>
       <div className="mt-40">
         <TbError404 className="text-9xl mx-auto" />
