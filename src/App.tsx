@@ -28,7 +28,7 @@ function App() {
         <section>
           <Education />
         </section>
-       
+
         <section>
           <Projects />
         </section>
@@ -50,3 +50,4 @@ export default App
 // standarize h's and text sizes
 // add links to a tags
 // improve about me layout
+// unbreak mobile

@@ -17,7 +17,7 @@ function Hero() {
   return (
     <div className=" h-screen relative">
       <div className=" flex flex-col space-y-8 items-center justify-center text-center overflow-hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <h1 className="whitespace-nowrap">Hi! I'm Edmilson Gomes</h1>
+        <h1>Hi! I'm Edmilson Gomes</h1>
         <h2 className="">
           <span>{text}</span>
           <Cursor cursorColor="white" />

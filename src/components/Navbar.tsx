@@ -25,15 +25,7 @@ function Navbar() {
             </a>
           </li>
 
-          <li className="p-4">
-          
-            <a
-              className="group transition-all duration-500 ease-in-out"
-              href="#"
-            >
-              <span className={underline}>Why You Should Hire Me</span>
-            </a>
-          </li>
+         
           <li className="p-4">
             <a
               className="group transition-all duration-300 ease-in-out"
@@ -89,9 +81,7 @@ function Navbar() {
             <li className="p-4 border-b border-white cursor-pointer hover:underline">
               About Me
             </li>
-            <li className="p-4 border-b border-white cursor-pointer hover:underline">
-              Why You Should Hire Me
-            </li>
+          
             <li className="p-4 border-b border-white cursor-pointer hover:underline">
               Experience
             </li>

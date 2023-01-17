@@ -1,24 +1,32 @@
 {
-  "skills": [
+  "Skills": {
+    
+  },
+
+  "Projects": [
     {
-      "icon": "hi",
+      "image": "hi",
       "title": "hii",
-      "body": "hiii"
+      "stack": "hiii",
+      "desc": "hiii",
+      "code": "hiii",
+      "live": "hiii"
     },
     {
-      "icon": "hi",
+      "image": "hi",
       "title": "hii",
-      "body": "hiii"
+      "stack": "hiii",
+      "desc": "hiii",
+      "code": "hiii",
+      "live": "hiii"
     },
     {
-      "icon": "hi",
+      "image": "hi",
       "title": "hii",
-      "body": "hiii"
-    },
-    {
-      "icon": "hi",
-      "title": "hii",
-      "body": "hiii"
+      "stack": "hiii",
+      "desc": "hiii",
+      "code": "hiii",
+      "live": "hiii"
     }
   ]
 }
