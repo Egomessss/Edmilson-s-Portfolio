@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div className="mt-12">
       <h2 className="">Experience</h2>
-      <div className="mt-40">
+      <div className="mt-24 md:mt-40">
         <TbError404 className="text-9xl mx-auto" />
         <p className="text-center">
           Uncaught typeError : cannot set property “innerHTML” of null at

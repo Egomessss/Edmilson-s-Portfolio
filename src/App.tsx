@@ -2,12 +2,11 @@ import { FaRegCircle } from "react-icons/fa"
 import About from "./components/About"
 import Contacts from "./components/Contacts"
 import Education from "./components/Education"
-import Experience from "./components/Experience"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
-import Skills from "./components/Skills"
+
 // <div className="max-w-[1240px] mx-auto px-4 relative snap-y snap-mandatory h-screen w-screen overflow-x-hidden">
 function App() {
   return (

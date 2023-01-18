@@ -5,7 +5,7 @@ function Education() {
   return (
     <div className="h-screen mt-32 md:mt-0">
       <h2 className="">Education</h2>
-      <div className="h-30 mt-32 flex justify-center items-center">
+      <div className="h-30 mt-24 md:mt-32 flex justify-center items-center">
         <ol className="relative border-l border-gray-200">
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white "></div>
