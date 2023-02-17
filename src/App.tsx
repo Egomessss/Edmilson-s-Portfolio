@@ -8,24 +8,23 @@ import Projects from "./components/Projects"
 // <div className="max-w-[1240px] mx-auto px-4 relative snap-y snap-mandatory h-screen w-screen overflow-x-hidden">
 function App() {
   return (
-    <div className="z-0 h-screen snap-y snap-mandatory overflow-scroll px-4 md:px-20">
+    <div className="z-0 h-screen px-4 md:snap-y md:snap-mandatory md:overflow-scroll md:px-20">
       <head>
         <title>Edmilson's Portfolio</title>
       </head>
-
-      <section className="snap-start">
+      <section className="md:snap-start">
         <Hero />
       </section>
-      <section className="snap-start">
+      <section className="md:snap-start">
         <About />
       </section>
-      <section className="snap-start">
+      <section className="md:snap-start">
         <Education />
       </section>
-      <section className="snap-start">
+      <section className="md:snap-start">
         <Projects />
       </section>
-      <section className="snap-start">
+      <section className="md:snap-start">
         <Contacts />
       </section>
     </div>

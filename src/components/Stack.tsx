@@ -6,20 +6,20 @@ import { DiGit } from "react-icons/di"
 import { GoTools } from "react-icons/go"
 function Stack() {
   const divSTyle =
-    "group relative flex flex-col gap-2 justify-center items-center w-[140px] h-[120px] "
+    "border-2 border-neongreen rounded-xl group relative flex flex-col gap- justify-center items-center w-[200px] h-[120px] "
   const iconStyle =
-    " p-2 hover:text-neongreen text-7xl group relative flex border-b-4 border-white cursor-pointer"
+    "p-2 hover:text-neongreen text-7xl group relative flex border-b-4 border-white cursor-pointer"
   const textStyle = "text-center font-aquirebold"
 
   return (
     <div className=" h-[400px]">
-      <h2 className="mb-7 flex gap-4 items-center">
+      <h2 className="mb-7 flex items-center gap-4">
         My tools{" "}
         <span>
           <GoTools />
         </span>
       </h2>
-      <ul className="grid grid-cols-4 place-items-center">
+      <ul className="grid grid-cols-4 place-items-center gap-4">
         <li className={divSTyle}>
           <FaHtml5 className={iconStyle} />
           <p className={textStyle}>HTML</p>
