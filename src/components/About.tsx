@@ -1,50 +1,38 @@
-import React from "react"
-import Skills from "./Skills"
-import SkillsCard from "./SkillsCards"
+
 import Stack from "./Stack"
+import cartoon from "../assets/images/cartoon.jpg"
 
 function About() {
   return (
     <div className="md:h-screen">
-      <h2 className="text-3xl mb-8">About Me</h2>
-      <div className=" flex flex-col gap-1">
-        <div className="">
+      <h1 className="mb-16">About Me</h1>
+      <div className="w-full h-full flex flex-col gap-1">
+        <div className="flex">
+         <div className="flex flex-col justify-center gap-4">
+           <p> 
+            Hi there! I'm Edmilson, a <span className="font-bold text-neongreen">front-end developer from Lisbon, Portugal</span>
+            who has passion for <span className="font-bold text-neongreen">problem-solving and creating beautiful and
+            user-friendly websites.</span> 
+          </p>
+          <br />
           <p>
-            Hi there! I'm Edmilson, a front-end developer from Lisbon, Portugal
-            who has passion for problem-solving and creating beautiful and
-            user-friendly websites. I began my journey as self taught but as
-            that wasn't enough for me i enrolled in an computer science degree
-            because I believe that knowledge is power and it will make me
-            improve my skills, problem solving and let stay up-to-date with the
-            latest development technologies as you can see in my tools and
-            projects sections where I show how I integrate the latest and best
-            tools.
+          
+            I began my journey as <span className="font-bold text-neongreen">self taught </span> but as that wasn't enough for me I
+            enrolled in a <span className="font-bold text-neongreen">computer science degree</span> because I believe that
+            knowledge is power and it will make me improve my skills.
           </p>
-        </div>
-        <br />
-        <div className="">
+          <br />
           <p>
-            I enjoy the challenge of taking a project from conception to
-            completion, and I pride myself on my ability to troubleshoot and
-            find creative solutions to even the most difficult problems. In my
-            free time, I enjoy experimenting with new technologies and
-            frameworks, and I am always on the lookout for new ways to enhance
-            the user experience. Thank you for visiting my page, and please feel
-            free to contact me if you have any questions or would like to work
-            together on a project.
+            I enjoy the <span className="font-bold text-neongreen">challenge </span> of taking a project from conception to
+            completion, and <span className="font-bold text-neongreen">I pride myself on my ability to troubleshoot and
+            find creative solutions to even the most difficult problems.</span>
           </p>
+         </div>
+         <img className="h-[400px]" src={cartoon} alt="cartoon image of myself" />
         </div>
-        <div className="mt-4">
-          <h3 className="mb-5">My Coding Phylosophy and Tools</h3>
-          <p className="mb-5">
-            When buidling or cloning web projects, I strongly adhere to these
-            principles which make my websites both unique and scaleable, while
-            using the latest and greatest stacks.
-          </p>
-          <SkillsCard />
-          <Stack />
-        </div>
-      </div>
+       <Stack />
+      </div> 
+      
     </div>
   )
 }
