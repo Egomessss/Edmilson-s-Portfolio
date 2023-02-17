@@ -32,9 +32,9 @@ function App() {
       <section className="snap-start">
         <Contacts />
       </section>
-      <footer className="snap-start">
+      {/* <footer className="snap-start">
         <Footer />
-      </footer>
+      </footer> */}
     </div>
   )
 }
