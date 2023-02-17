@@ -8,7 +8,7 @@ function Experience() {
       <div className="mt-24 md:mt-40">
         <TbError404 className="text-9xl mx-auto" />
         <p className="text-center">
-          Uncaught typeError : cannot set property “innerHTML” of null at
+          Uncaught typeError : cannot set property “textContent” of null at
           &lt;workExperience&gt;{" "}
           <span className="underline"> Hire me to fix this error in the future.</span>
         </p>
