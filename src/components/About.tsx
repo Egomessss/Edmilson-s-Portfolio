@@ -5,8 +5,8 @@ import cartoon from "../assets/images/cartoon.jpg"
 function About() {
   return (
     <div className="md:h-screen">
-      <h1 className="mb-16">About Me</h1>
-      <div className="w-full h-full flex flex-col gap-1">
+      <h1 className="">About Me</h1>
+      <div className="w-full h-full flex flex-col justify-evenly">
         <div className="flex">
          <div className="flex flex-col justify-center gap-4">
            <p> 
@@ -28,7 +28,7 @@ function About() {
             find creative solutions to even the most difficult problems.</span>
           </p>
          </div>
-         <img className="h-[400px]" src={cartoon} alt="cartoon image of myself" />
+         <img className="h-[500px]" src={cartoon} alt="cartoon image of myself" />
         </div>
        <Stack />
       </div> 
