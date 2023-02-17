@@ -2,21 +2,17 @@ import { FaRegCircle } from "react-icons/fa"
 import About from "./components/About"
 import Contacts from "./components/Contacts"
 import Education from "./components/Education"
-import Footer from "./components/Footer"
 import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 
 // <div className="max-w-[1240px] mx-auto px-4 relative snap-y snap-mandatory h-screen w-screen overflow-x-hidden">
 function App() {
   return (
-    <div className="px-20 h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className="z-0 h-screen snap-y snap-mandatory overflow-scroll px-4 md:px-20">
       <head>
         <title>Edmilson's Portfolio</title>
       </head>
-      {/* <section>
-        <Navbar />
-      </section> */}
+
       <section className="snap-start">
         <Hero />
       </section>
@@ -32,9 +28,6 @@ function App() {
       <section className="snap-start">
         <Contacts />
       </section>
-      {/* <footer className="snap-start">
-        <Footer />
-      </footer> */}
     </div>
   )
 }
