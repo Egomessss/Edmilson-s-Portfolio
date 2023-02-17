@@ -2,6 +2,7 @@ import React from "react"
 import { motion } from "framer-motion"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai"
+import Navbar from "./Navbar"
 
 
 function Hero() {
@@ -16,6 +17,7 @@ function Hero() {
   })
   return (
     <div className=" h-screen relative">
+      <Navbar/>
       <div className=" flex flex-col space-y-8 items-center justify-center text-center overflow-hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <h1>Hi! I'm Edmilson Gomes</h1>
         <h2 className="">
