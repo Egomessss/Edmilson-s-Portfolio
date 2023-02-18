@@ -35,13 +35,13 @@ function Education() {
           <h1 className="">Experience</h1>
           <div className="h-[500px] flex flex-col justify-center">
             <TbError404 className="text-9xl mx-auto" />
-            <h1 className="text-center">
+            <h2 className="text-center">
               Uncaught typeError : cannot set property “textContent” of null at
               &lt;workExperience&gt;{" "}
               <span className="underline text-white">
                 Hire me to fix this error in the future.
               </span>
-            </h1>
+            </h2>
           </div>
         </div>
       </div>

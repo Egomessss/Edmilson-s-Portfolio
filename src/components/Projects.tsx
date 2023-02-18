@@ -14,15 +14,14 @@ function Projects() {
       >
         <AiFillGithub className="h-[50px] text-4xl hover:fill-current hover:text-neongreen" />
       </a>
-      <ul className="grid h-[1000px] grid-cols-8 grid-rows-4 border-2 border-white">
-        <li className="col-span-8 row-span-2 border-2 border-white h-full w-full">
+      <ul className="grid h-[1000px] grid-cols-9 grid-rows-5 border-2 border-white">
+        <li className="col-span-6 row-span-3 h-full w-full border-2 border-white">
           <ProjectsCards />
         </li>
-        <li className="col-span-4 row-span-2 border-2 border-white"></li>
-        <li className="col-span-2 border-2 border-white"></li>
-        <li className="col-span-2 border-2 border-white"></li>
-        <li className="col-span-2 border-2 border-white"></li>
-        <li className="col-span-2 border-2 border-white"></li>
+        <li className="col-span-3 row-span-3 border-2 border-white"></li>
+        <li className="col-span-3 row-span-2 border-2 border-white"></li>
+        <li className="col-span-3 row-span-2 border-2 border-white"></li>
+        <li className="col-span-3 row-span-2 border-2 border-white"></li>
       </ul>
       {/* <div className="flex flex-col md:flex-row gap-2 md:gap-0 md:flex row mt-4 flex-wrap justify-center items-center">
         <ProjectsCardsBig />

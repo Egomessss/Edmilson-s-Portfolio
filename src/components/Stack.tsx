@@ -6,7 +6,7 @@ import { DiGit } from "react-icons/di"
 import { GoTools } from "react-icons/go"
 function Stack() {
   const divSTyle =
-    "border-2 border-neongreen rounded-xl group relative flex flex-col gap- justify-center items-center w-[200px] h-[120px] "
+    "border-[1px] border-neongreen rounded-xl group relative flex flex-col gap- justify-center items-center w-[200px] h-[120px] "
   const iconStyle =
     "p-2 hover:text-neongreen text-7xl group relative flex border-b-4 border-white cursor-pointer"
   const textStyle = "text-center font-aquirebold"
@@ -19,7 +19,7 @@ function Stack() {
           <GoTools />
         </span>
       </h2>
-      <ul className="grid grid-cols-4 place-items-center gap-4">
+      <ul className="grid grid-cols-2 md:grid-cols-4  place-items-center gap-4">
         <li className={divSTyle}>
           <FaHtml5 className={iconStyle} />
           <p className={textStyle}>HTML</p>
