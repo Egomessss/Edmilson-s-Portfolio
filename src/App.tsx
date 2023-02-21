@@ -3,19 +3,23 @@ import About from "./components/About"
 import Contacts from "./components/Contacts"
 import Education from "./components/Education"
 import Hero from "./components/Hero"
+import Hero2 from "./components/Hero2"
 import Projects from "./components/Projects"
 
-// <div className="max-w-[1240px] mx-auto px-4 relative snap-y snap-mandatory h-screen w-screen overflow-x-hidden">
+// <div className="z-0 h-screen px-4 md:snap-y md:snap-mandatory md:overflow-scroll md:px-20">
 function App() {
   return (
-    <div className="z-0 h-screen px-4 md:snap-y md:snap-mandatory md:overflow-scroll md:px-20">
+    <div className="">
       <head>
         <title>Edmilson's Portfolio</title>
       </head>
       <section className="md:snap-start">
-        <Hero />
+        <Hero2 />
       </section>
       <section className="md:snap-start">
+        <Hero />
+      </section>
+      {/* <section className="md:snap-start">
         <About />
       </section>
       <section className="md:snap-start">
@@ -26,7 +30,7 @@ function App() {
       </section>
       <section className="md:snap-start">
         <Contacts />
-      </section>
+      </section> */}
     </div>
   )
 }
