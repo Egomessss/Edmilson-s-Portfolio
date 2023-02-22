@@ -13,7 +13,8 @@ import {
 } from "react-icons/vsc"
 import WindowsModal from "./WindowsModal"
 
-function Hero2() {
+import { MdOutlineAlternateEmail } from "react-icons/md"
+function Homepage() {
   const [openWindow, setOpenWindow] = useState(false)
 
   return (
@@ -22,45 +23,53 @@ function Hero2() {
 
       <body className="flex flex-grow">
         {/* sidebar */}
-        <aside className="flex w-14 flex-col justify-between bg-[#333333] p-3">
-          <div className="">
-            {" "}
-            <ul className="flex flex-col items-center justify-center gap-6">
-              <li className="p-2">
-                <AiOutlineMenu className="text-xl" />
-                {/* <p></p> */}
-              </li>
-              <li className="flex items-center gap-2">
-                <TbFiles className="text-2xl" />
-                {/* <p>About</p> */}
-              </li>
-              <li>
-                <VscSearch className="text-2xl" />
-                {/* <p>Education</p> */}
-              </li>
-              <li>
-                <VscSourceControl className="text-2xl" />
-                {/* <p>Experience</p> */}
-              </li>
-              <li>
-                <VscDebugAltSmall className="text-2xl" />
-                <p></p>
-              </li>
-              <li>
-                <VscExtensions className="text-2xl" />
-                {/* <p>Projects</p> */}
-              </li>
-            </ul>
-          </div>
+        <aside className="flex w-16 flex-col justify-between bg-[#333333] p-3">
+          <ul className="flex flex-col items-center justify-center gap-6">
+            <li className="p-2">
+              <button className="flex flex-col items-center justify-center gap-2">
+                <h4>Home</h4>
+              </button>
+              {/* <p></p> */}
+            </li>
+            <button className="flex flex-col items-center justify-center gap-2">
+              <VscAccount className="text-3xl" />
+              <p className="text-[10px]">About</p>
+            </button>
+            <li>
+              <button className="flex flex-col items-center justify-center gap-2">
+                <VscExtensions className="text-3xl" />
+                <p className="text-[10px]">Skills</p>
+              </button>
+              {/* <p>Projects</p> */}
+            </li>
 
-          <div className="flex flex-col items-center gap-6">
-            <button>
-              <VscAccount className="text-2xl" />
-            </button>
-            <button>
-              <VscSettingsGear className="text-2xl" />
-            </button>
-          </div>
+            <li>
+              <button className="flex flex-col items-center justify-center gap-2">
+                <VscSourceControl className="text-3xl" />
+                <p className="text-[10px]">Education</p>
+              </button>
+              {/* <p>Experience</p> */}
+            </li>
+            <li>
+              <button className="flex flex-col items-center justify-center gap-2">
+                <VscDebugAltSmall className="text-3xl" />
+                <p className="text-[10px]">Experience</p>
+              </button>
+            </li>
+
+            <li>
+              <button className="flex flex-col items-center justify-center gap-2">
+                <VscSearch className="text-3xl" />
+                <p className="text-[10px]">Projects</p>
+              </button>
+              {/* <p>Education</p> */}
+            </li>
+          </ul>
+          <button className="flex flex-col items-center justify-center gap-2">
+            {" "}
+            <MdOutlineAlternateEmail className="text-3xl" />
+            <p className="text-[10px]">Contact me</p>
+          </button>
         </aside>
         <div className="w-full">
           <nav className="h-8 w-full bg-[#333333]  ">
@@ -112,4 +121,4 @@ function Hero2() {
   )
 }
 
-export default Hero2
+export default Homepage
