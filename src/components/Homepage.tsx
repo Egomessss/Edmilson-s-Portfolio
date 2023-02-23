@@ -14,6 +14,9 @@ import {
 import WindowsModal from "./WindowsModal"
 
 import { MdOutlineAlternateEmail } from "react-icons/md"
+import { Link } from "react-router-dom"
+import Sidebar from "./Sidebar"
+import Navigation from "./Navigation"
 function Homepage() {
   const [openWindow, setOpenWindow] = useState(false)
 
@@ -23,75 +26,9 @@ function Homepage() {
 
       <body className="flex flex-grow">
         {/* sidebar */}
-        <aside className="flex w-16 flex-col justify-between bg-[#333333] p-3">
-          <ul className="flex flex-col items-center justify-center gap-6">
-            <li className="p-2">
-              <button className="flex flex-col items-center justify-center gap-2">
-                <h4>Home</h4>
-              </button>
-              {/* <p></p> */}
-            </li>
-            <button className="flex flex-col items-center justify-center gap-2">
-              <VscAccount className="text-3xl" />
-              <p className="text-[10px]">About</p>
-            </button>
-            <li>
-              <button className="flex flex-col items-center justify-center gap-2">
-                <VscExtensions className="text-3xl" />
-                <p className="text-[10px]">Skills</p>
-              </button>
-              {/* <p>Projects</p> */}
-            </li>
-
-            <li>
-              <button className="flex flex-col items-center justify-center gap-2">
-                <VscSourceControl className="text-3xl" />
-                <p className="text-[10px]">Education</p>
-              </button>
-              {/* <p>Experience</p> */}
-            </li>
-            <li>
-              <button className="flex flex-col items-center justify-center gap-2">
-                <VscDebugAltSmall className="text-3xl" />
-                <p className="text-[10px]">Experience</p>
-              </button>
-            </li>
-
-            <li>
-              <button className="flex flex-col items-center justify-center gap-2">
-                <VscSearch className="text-3xl" />
-                <p className="text-[10px]">Projects</p>
-              </button>
-              {/* <p>Education</p> */}
-            </li>
-          </ul>
-          <button className="flex flex-col items-center justify-center gap-2">
-            {" "}
-            <MdOutlineAlternateEmail className="text-3xl" />
-            <p className="text-[10px]">Contact me</p>
-          </button>
-        </aside>
+        <Sidebar />
         <div className="w-full">
-          <nav className="h-8 w-full bg-[#333333]  ">
-            <ul className="flex gap-5 text-xs">
-              <li className="flex items-center gap-2">
-                <p>Welcome</p>
-                <GoX />
-              </li>
-              <li className="flex items-center gap-2">
-                <p>Welcome</p>
-                <GoX />
-              </li>
-              <li className="flex items-center gap-2">
-                <p>Welcome</p>
-                <GoX />
-              </li>
-              <li className="flex items-center gap-2">
-                <p>Welcome</p>
-                <GoX />
-              </li>
-            </ul>
-          </nav>
+          <Navigation />
           <main className="relative flex h-full w-full flex-col items-center justify-center">
             <div className="h-[800px]">
               <div>

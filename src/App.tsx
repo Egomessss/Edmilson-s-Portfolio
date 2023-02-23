@@ -7,6 +7,7 @@ import Hero from "./components/Hero"
 import Homepage from "./components/Homepage"
 import Hero2 from "./components/Homepage"
 import Projects from "./components/Projects"
+import Skills from "./components/Skills"
 
 // <div className="z-0 h-screen px-4 md:snap-y md:snap-mandatory md:overflow-scroll md:px-20">
 function App() {
@@ -18,12 +19,11 @@ function App() {
           element={<Homepage />}
         />
         <Route
-          path="/Hero"
-          element={<Hero2 />}
-        />
-        <Route
           path="/About"
           element={<About />}
+        /><Route
+          path="/Skills"
+          element={<Skills />}
         />
         {/* <Route
           path="/"
