@@ -76,7 +76,7 @@ function Sidebar() {
             </li>
           </Link>
         </ul>
-        <Link to={"/Contact"}>
+        <Link to={"/Contacts"}>
           <button className="flex flex-col items-center justify-center gap-2">
             <MdOutlineAlternateEmail className="text-3xl" />
             <p className="text-[10px]">Contact me</p>

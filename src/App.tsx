@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom"
 import About from "./components/About"
 import Contacts from "./components/Contacts"
 import Education from "./components/Education"
+import Experience from "./components/Experience"
 import Hero from "./components/Hero"
 import Homepage from "./components/Homepage"
 import Hero2 from "./components/Homepage"
@@ -25,18 +26,22 @@ function App() {
           path="/Skills"
           element={<Skills />}
         />
-        {/* <Route
-          path="/"
-          element={<Homepage />}
+        <Route
+          path="/Education"
+          element={<Education />}
         />
         <Route
-          path="/"
-          element={<Homepage />}
+          path="/Experience"
+          element={<Experience />}
         />
         <Route
-          path="/"
-          element={<Homepage />}
-        /> */}
+          path="/Projects"
+          element={<Projects />}
+        />
+        <Route
+          path="/Contacts"
+          element={<Contacts />}
+        />
       </Routes>
       {/* <head>
         <title>Edmilson's Portfolio</title>

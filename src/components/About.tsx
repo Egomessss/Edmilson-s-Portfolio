@@ -15,6 +15,7 @@ import WindowsModal from "./WindowsModal"
 import Sidebar from "./Sidebar"
 import Navigation from "./Navigation"
 
+
 function About() {
   return (
     <div className="flex min-h-screen flex-col bg-[#1E1E1E]">
@@ -22,6 +23,7 @@ function About() {
       <body className="flex flex-grow">
         {/* sidebar */}
         <Sidebar />
+        
         <div className="w-full">
           <Navigation />
           <main className="relative flex  h-full w-full  items-center justify-center">

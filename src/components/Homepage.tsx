@@ -17,8 +17,20 @@ import { MdOutlineAlternateEmail } from "react-icons/md"
 import { Link } from "react-router-dom"
 import Sidebar from "./Sidebar"
 import Navigation from "./Navigation"
+import { useTypewriter } from "react-simple-typewriter"
+
 function Homepage() {
   const [openWindow, setOpenWindow] = useState(false)
+
+  const [text, count] = useTypewriter({
+    words: [
+      "The Illusive Developer That Can Center A Div",
+      "The Solution To Your Coding Problems",
+      "Passionate For Everything Tech",
+    ],
+    loop: true,
+    delaySpeed: 2000,
+  })
 
   return (
     <div className="flex min-h-screen flex-col bg-[#1E1E1E]">
@@ -33,9 +45,10 @@ function Homepage() {
             <div className="h-[800px]">
               <div>
                 <h1 className="mb-5">Visual Studio Portfolio</h1>
-                <h2>Frontend evolved</h2>
-              </div>
-
+                <h2 className="text-white">Frontend evolved</h2>
+              </div>{openWindow ? (
+              <WindowsModal text={text} />
+            ) : (
               <div className="mt-10 flex flex-col">
                 <h3>Start</h3>
 
@@ -43,12 +56,13 @@ function Homepage() {
                   onClick={() => setOpenWindow(true)}
                   className="mt-4 flex items-center gap-4 text-blue-600"
                 >
-                  <AiOutlineFolderOpen className="text-xl" />
-                  <p className="text-sm">Open Folder...</p>
+                  <AiOutlineFolderOpen className="text-5xl" />
+                  <p className="text-md">Open Folder...</p>
                 </button>
               </div>
+            )}
             </div>
-            {openWindow && <WindowsModal />}
+            
           </main>
         </div>
       </body>
