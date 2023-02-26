@@ -29,14 +29,24 @@ function WindowsModal({ text }) {
           <AiFillGithub className="text-4xl hover:fill-current hover:text-neongreen" />
         </a>
       </div>
-      <a
+      <div className="flex gap-5"> <a
         href="#_"
         className="group relative px-6 py-3 font-bold text-black"
       >
         <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
         <span className="absolute inset-0 h-full w-full border-4 border-white"></span>
-        <span className="relative font-aquirebold">Resume</span>
+        <span className="relative font-aquirebold">Resumee</span>
       </a>
+      {/* add link here */}
+      <a
+        href="#_"
+        className="group relative px-6 py-3 font-bold text-black"
+      >
+        <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-white transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
+        <span className="absolute inset-0 h-full w-full border-4 border-neongreen"></span>
+        <span className="relative font-aquirebold">Contact me</span>
+      </a></div>
+     
     </div>
   )
 }

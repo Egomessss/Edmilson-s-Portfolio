@@ -43,26 +43,37 @@ function Homepage() {
           <Navigation />
           <main className="relative flex h-full w-full flex-col items-center justify-center">
             <div className="h-[800px]">
-              <div>
-                <h1 className="mb-5">Visual Studio Portfolio</h1>
-                <h2 className="text-white">Frontend evolved</h2>
-              </div>{openWindow ? (
-              <WindowsModal text={text} />
-            ) : (
-              <div className="mt-10 flex flex-col">
-                <h3>Start</h3>
+              {openWindow ? (
+                <WindowsModal text={text} />
+              ) : (
+                <div className="mt-10 flex flex-col">
+                  <div>
+                    <h1 className="mb-5">
+                      <span>&lt;h1&gt;</span>Visual Studio Portfolio
+                      <span>&lt;/h1&gt;</span>
+                    </h1>
+                    <h2 className="mb-10 text-white">
+                      <span> &lt;h2&gt;</span>Frontend evolved
+                      <span>&lt;/h2&gt;</span>
+                    </h2>
+                  </div>
 
-                <button
-                  onClick={() => setOpenWindow(true)}
-                  className="mt-4 flex items-center gap-4 text-blue-600"
-                >
-                  <AiOutlineFolderOpen className="text-5xl" />
-                  <p className="text-md">Open Folder...</p>
-                </button>
-              </div>
-            )}
+                  <h3>
+                    <span> &lt;h3&gt;</span>Start <span>&lt;/h3&gt;</span>
+                  </h3>
+
+                  <button
+                    onClick={() => setOpenWindow(true)}
+                    className="mt-4 flex items-center gap-4 text-blue-600"
+                  >
+                    <span> &lt;button&gt;</span>
+                    <AiOutlineFolderOpen className="text-5xl" />
+                    <p className="text-md">Open Folder...</p>
+                    <span>&lt;/button&gt;</span>
+                  </button>
+                </div>
+              )}
             </div>
-            
           </main>
         </div>
       </body>
