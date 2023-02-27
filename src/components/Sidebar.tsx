@@ -35,7 +35,7 @@ function Sidebar() {
         <ul className="flex flex-col items-center justify-center gap-6">
           <li className="p-2">
             <Link to={"/"}>
-              {" "}
+              
               <button className="flex flex-col items-center justify-center gap-2">
                 <VscHome className="text-3xl" />
                 <p className="text-[10px]">Home</p>
@@ -50,7 +50,7 @@ function Sidebar() {
             </button>
           </Link>
           <Link to={"/Skills"}>
-            {" "}
+            
             <li>
               <button
                 onClick={toogleSkillsExtension}
@@ -91,25 +91,30 @@ function Sidebar() {
               </button>
               {/* <p>Education</p> */}
             </li>
-          </Link>
-        </ul>
-        <Link to={"/Contacts"}>
+          </Link> 
+          <Link to={"/Contacts"}>
           <button className="flex flex-col items-center justify-center gap-2">
             <MdOutlineAlternateEmail className="text-3xl" />
             <p className="text-[10px]">Contact me</p>
           </button>
         </Link>
-
-        <button className="flex flex-col items-center justify-center gap-2">
-          <AiFillLinkedin className="text-3xl" />
-        </button>
-        <button className="flex flex-col items-center justify-center gap-2">
-          <AiFillGithub className="text-3xl" />
-        </button>
+        </ul>
+       
+        <div className="flex flex-col gap-4">
+          
+          <button className="flex flex-col items-center justify-center gap-2">
+            <AiFillLinkedin className="text-3xl" />
+            <p className="text-[10px]">Linkedin</p>
+          </button>
+          <button className="flex flex-col items-center justify-center gap-2">
+            <AiFillGithub className="text-3xl" />
+            <p className="text-[10px]">Github</p>
+          </button>
+        </div>
       </aside>
       {openSkillsExtension && (
         <SkillsExtensions>
-          {" "}
+          
           <div className="flex justify-between px-5 py-4 ">
             <p className="text-xs">EXTENSIONS</p>
             <div className="flex items-center gap-2">
