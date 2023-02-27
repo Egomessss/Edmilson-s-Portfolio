@@ -27,14 +27,17 @@ function About() {
         <div className="w-full">
           <Navigation />
           <main className="relative flex  h-full w-full  items-center justify-center">
-            <div className="flex flex-col justify-center gap-4 w-[500px]">
+            <div className="h-[800px] flex flex-col justify-center gap-4 w-[500px]">
+            <h1 className="mb-5">
+                      <span>&lt;h1/&gt;</span>About
+                    </h1>
               <p>
                 Hi there! I'm Edmilson, a
-                <span className="font-bold text-neongreen">
+                <span className="font-bold text-neongreen mx-2">
                   front-end developer from Lisbon, Portugal
                 </span>
                 who has passion for
-                <span className="font-bold text-neongreen">
+                <span className="font-bold text-neongreen mx-2">
                   problem-solving and creating beautiful and user-friendly
                   websites.
                 </span>
@@ -43,21 +46,21 @@ function About() {
 
               <p>
                 I began my journey as
-                <span className="font-bold text-neongreen">self taught</span>
+                <span className="font-bold text-neongreen mx-2">self taught</span>
                 but as that wasn't enough for me I enrolled in a
-                <span className="font-bold text-neongreen">
+                <span className="font-bold text-neongreen mx-2">
                   computer science degree
                 </span>
                 because I believe that knowledge is power and it will make me
-                improve my skills.
+                improve my technical abilities.
               </p>
               <br />
 
               <p>
                 I enjoy the
-                <span className="font-bold text-neongreen">challenge </span>
+                <span className="font-bold text-neongreen mx-2">challenge </span>
                 of taking a project from conception to completion, and
-                <span className="font-bold text-neongreen">
+                <span className="font-bold text-neongreen mx-2">
                   I pride myself on my ability to troubleshoot and find creative
                   solutions to even the most difficult problems.
                 </span>

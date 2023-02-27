@@ -49,27 +49,19 @@ function Homepage() {
                 <div className="mt-10 flex flex-col">
                   <div>
                     <h1 className="mb-5">
-                      <span>&lt;h1&gt;</span>Visual Studio Portfolio
-                      <span>&lt;/h1&gt;</span>
+                      <span>&lt;h1/&gt;</span>Visual Studio Portfolio
                     </h1>
-                    <h2 className="mb-10 text-white">
-                      <span> &lt;h2&gt;</span>Frontend evolved
-                      <span>&lt;/h2&gt;</span>
-                    </h2>
+                    <h2 className="mb-10 text-white">Frontend evolved</h2>
                   </div>
 
-                  <h3>
-                    <span> &lt;h3&gt;</span>Start <span>&lt;/h3&gt;</span>
-                  </h3>
+                  <h3>Start</h3>
 
                   <button
                     onClick={() => setOpenWindow(true)}
                     className="mt-4 flex items-center gap-4 text-blue-600"
                   >
-                    <span> &lt;button&gt;</span>
                     <AiOutlineFolderOpen className="text-5xl" />
                     <p className="text-md">Open Folder...</p>
-                    <span>&lt;/button&gt;</span>
                   </button>
                 </div>
               )}

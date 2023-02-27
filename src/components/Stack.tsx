@@ -6,9 +6,11 @@ import { DiGit } from "react-icons/di"
 import { GoTools } from "react-icons/go"
 function Stack() {
   const divSTyle =
-    "border-[1px] border-neongreen rounded-xl group relative flex flex-col gap- justify-center items-center w-[200px] h-[120px] "
-  const iconStyle =
-    "p-2 hover:text-neongreen text-7xl group relative flex border-b-4 border-white cursor-pointer"
+    "border-[1px] rounded-xl group relative flex flex-col  justify-center items-center w-[200px] h-[120px] "
+  // const iconStyle =
+  //   "p-2 hover:text-neongreen text-7xl group relative flex border-b-4 border-white cursor-pointer"
+    const iconStyle =
+    "p-2 hover:text-neongreen text-7xl text-red-700 relative flex border-b-4 border-white cursor-pointer"
   const textStyle = "text-center font-aquirebold"
 
   return (
@@ -21,35 +23,35 @@ function Stack() {
       </h2>
       <ul className="grid grid-cols-2 md:grid-cols-4  place-items-center gap-4">
         <li className={divSTyle}>
-          <FaHtml5 className={iconStyle} />
+          <FaHtml5 className= "p-2 hover:text-neongreen text-7xl text-[#D84924] relative flex border-b-4 border-white cursor-pointer" />
           <p className={textStyle}>HTML</p>
         </li>
         <li className={divSTyle}>
-          <FaCss3Alt className={iconStyle} />
+          <FaCss3Alt className= "p-2 hover:text-neongreen text-7xl text-[#0066B6] relative flex border-b-4 border-white cursor-pointer" />
           <p className={textStyle}>CSS</p>
         </li>
         <li className={divSTyle}>
-          <SiTailwindcss className={iconStyle} />
+          <SiTailwindcss className= "p-2 hover:text-neongreen text-7xl text-[#38BDF8] relative flex border-b-4 border-white cursor-pointer" />
           <p className={textStyle}>TailwindCSS</p>
         </li>
         <li className={divSTyle}>
-          <SiJavascript className={iconStyle} />
+          <SiJavascript className="p-2 hover:text-neongreen text-7xl text-[#EAD41C] relative flex border-b-4 border-white cursor-pointer"/>
           <p className={textStyle}>Javascript</p>
         </li>
         <li className={divSTyle}>
-          <SiTypescript className={iconStyle} />
+          <SiTypescript className="p-2 hover:text-neongreen text-7xl text-[#2F72BC] relative flex border-b-4 border-white cursor-pointer" />
           <p className={textStyle}>Typescript</p>
         </li>
         <li className={divSTyle}>
-          <FaReact className={iconStyle} />
+          <FaReact className="p-2 hover:text-neongreen text-7xl text-[#00D1F2] relative flex border-b-4 border-white cursor-pointer" />
           <p className={textStyle}>REact</p>
         </li>
         <li className={divSTyle}>
-          <AiFillApi className={iconStyle} />
+          <AiFillApi className="p-2 hover:text-neongreen text-7xl text-white relative flex border-b-4 border-white cursor-pointer" />
           <p className={textStyle}>API's</p>
         </li>
         <li className={divSTyle}>
-          <DiGit className={iconStyle} />
+          <DiGit className="p-2 hover:text-neongreen text-7xl text-[#E44C30] relative flex border-b-4 border-white cursor-pointer" />
           <p className={textStyle}>Git</p>
         </li>
       </ul>

@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai"
 import { MdOutlineAlternateEmail } from "react-icons/md"
 import {
   VscAccount,
@@ -6,6 +7,7 @@ import {
   VscSourceControl,
   VscDebugAltSmall,
   VscSearch,
+  VscHome,
 } from "react-icons/vsc"
 import { Link } from "react-router-dom"
 import SkillsExtensions from "./SkillsExtensions"
@@ -24,7 +26,8 @@ function Sidebar() {
             <Link to={"/"}>
               {" "}
               <button className="flex flex-col items-center justify-center gap-2">
-                <h4>Home</h4>
+                <VscHome className="text-3xl"/>
+                <p className="text-[10px]">Home</p>
               </button>
               {/* <p></p> */}
             </Link>
@@ -82,6 +85,15 @@ function Sidebar() {
             <p className="text-[10px]">Contact me</p>
           </button>
         </Link>
+
+        <button className="flex flex-col items-center justify-center gap-2">
+            <AiFillLinkedin className="text-3xl" />
+           
+          </button>
+          <button className="flex flex-col items-center justify-center gap-2">
+            <AiFillGithub className="text-3xl" />
+           
+          </button>
       </aside>
       {openExtension && <SkillsExtensions />}
     </div>
