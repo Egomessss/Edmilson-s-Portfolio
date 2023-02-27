@@ -1,6 +1,9 @@
+import { Disclosure } from "@headlessui/react"
 import React, { useState } from "react"
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai"
+import { BsChevronDown } from "react-icons/bs"
 import { MdOutlineAlternateEmail } from "react-icons/md"
+import { RiMoreLine } from "react-icons/ri"
 import {
   VscAccount,
   VscExtensions,
@@ -8,15 +11,23 @@ import {
   VscDebugAltSmall,
   VscSearch,
   VscHome,
+  VscClearAll,
+  VscFilter,
+  VscRefresh,
 } from "react-icons/vsc"
 import { Link } from "react-router-dom"
 import SkillsExtensions from "./SkillsExtensions"
 
 function Sidebar() {
-  const [openExtension, setOpenExtension] = useState(false)
+  const [openSkillsExtension, setOpenSkillsExtension] = useState(false)
+  const [openExperienceExtension, setOpenExperienceExtension] = useState(false)
 
-  const toogleExtension = () => {
-    setOpenExtension((current) => !current)
+  const toogleSkillsExtension = () => {
+    setOpenSkillsExtension((current) => !current)
+  }
+
+  const toogleExperienceExtension = () => {
+    setOpenExperienceExtension((current) => !current)
   }
   return (
     <div className="flex">
@@ -26,7 +37,7 @@ function Sidebar() {
             <Link to={"/"}>
               {" "}
               <button className="flex flex-col items-center justify-center gap-2">
-                <VscHome className="text-3xl"/>
+                <VscHome className="text-3xl" />
                 <p className="text-[10px]">Home</p>
               </button>
               {/* <p></p> */}
@@ -42,7 +53,7 @@ function Sidebar() {
             {" "}
             <li>
               <button
-                onClick={toogleExtension}
+                onClick={toogleSkillsExtension}
                 className="flex flex-col items-center justify-center gap-2"
               >
                 <VscExtensions className="text-3xl" />
@@ -62,7 +73,10 @@ function Sidebar() {
           </Link>
           <Link to={"/Experience"}>
             <li>
-              <button className="flex flex-col items-center justify-center gap-2">
+              <button
+                onClick={toogleExperienceExtension}
+                className="flex flex-col items-center justify-center gap-2"
+              >
                 <VscDebugAltSmall className="text-3xl" />
                 <p className="text-[10px]">Experience</p>
               </button>
@@ -87,15 +101,111 @@ function Sidebar() {
         </Link>
 
         <button className="flex flex-col items-center justify-center gap-2">
-            <AiFillLinkedin className="text-3xl" />
-           
-          </button>
-          <button className="flex flex-col items-center justify-center gap-2">
-            <AiFillGithub className="text-3xl" />
-           
-          </button>
+          <AiFillLinkedin className="text-3xl" />
+        </button>
+        <button className="flex flex-col items-center justify-center gap-2">
+          <AiFillGithub className="text-3xl" />
+        </button>
       </aside>
-      {openExtension && <SkillsExtensions />}
+      {openSkillsExtension && (
+        <SkillsExtensions>
+          {" "}
+          <div className="flex justify-between px-5 py-4 ">
+            <p className="text-xs">EXTENSIONS</p>
+            <div className="flex items-center gap-2">
+              <VscFilter />
+              <VscRefresh />
+              <VscClearAll className="text-gray-500" />
+              <RiMoreLine />
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <input
+              className="w-[260px] bg-[#3C3C3C]"
+              type="text"
+            />
+          </div>
+          <div className="">
+            <Disclosure>
+              <Disclosure.Button className="flex w-full items-center justify-between py-2">
+                <div className="flex items-center">
+                  <BsChevronDown />
+                  <p className="text-xs">INSTALLED</p>
+                </div>
+                <p className="mr-4 w-4 rounded-xl bg-gray-400 text-xs">0</p>
+              </Disclosure.Button>
+              <Disclosure.Panel className="text-gray-500"></Disclosure.Panel>
+            </Disclosure>
+          </div>
+          <div className="">
+            <Disclosure>
+              <Disclosure.Button className="py-2">installed</Disclosure.Button>
+              <Disclosure.Panel className="text-gray-500">
+                Yes! You can purchase a license that you can share with your
+                entire team.
+              </Disclosure.Panel>
+            </Disclosure>
+          </div>
+          <div className="">
+            <Disclosure>
+              <Disclosure.Button className="py-2">installed</Disclosure.Button>
+              <Disclosure.Panel className="text-gray-500">
+                Yes! You can purchase a license that you can share with your
+                entire team.
+              </Disclosure.Panel>
+            </Disclosure>
+          </div>
+        </SkillsExtensions>
+      )}
+      {openExperienceExtension && (
+        <SkillsExtensions>
+          <div className="flex justify-between px-5 py-4 ">
+            <p className="text-xs">EXTENSIONS</p>
+            <div className="flex items-center gap-2">
+              <VscFilter />
+              <VscRefresh />
+              <VscClearAll className="text-gray-500" />
+              <RiMoreLine />
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <input
+              className="w-[260px] bg-[#3C3C3C]"
+              type="text"
+            />
+          </div>
+          <div className="">
+            <Disclosure>
+              <Disclosure.Button className="flex w-full items-center justify-between py-2">
+                <div className="flex items-center">
+                  <BsChevronDown />
+                  <p className="text-xs">INSTALLED</p>
+                </div>
+                <p className="mr-4 w-4 rounded-xl bg-gray-400 text-xs">0</p>
+              </Disclosure.Button>
+              <Disclosure.Panel className="text-gray-500"></Disclosure.Panel>
+            </Disclosure>
+          </div>
+          <div className="">
+            <Disclosure>
+              <Disclosure.Button className="py-2">installed</Disclosure.Button>
+              <Disclosure.Panel className="text-gray-500">
+                Yes! You can purchase a license that you can share with your
+                entire team.
+              </Disclosure.Panel>
+            </Disclosure>
+          </div>
+          <div className="">
+            <Disclosure>
+              <Disclosure.Button className="py-2">installed</Disclosure.Button>
+              <Disclosure.Panel className="text-gray-500">
+                Yes! You can purchase a license that you can share with your
+                entire team.
+              </Disclosure.Panel>
+            </Disclosure>
+          </div>
+        </SkillsExtensions>
+      )}
     </div>
   )
 }
