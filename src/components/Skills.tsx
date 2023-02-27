@@ -19,12 +19,6 @@ function Skills() {
           <Navigation />
           <main className="relative flex  h-full w-full  items-center justify-center">
             <div className=" w-[800px]">
-              <h2 className="mb-5">Why You Should Hire Me</h2>
-              <p className="mb-5">
-                When buidling or cloning web projects, I strongly adhere to
-                these principles which make my websites both unique and
-                scaleable, while using the latest and greatest stacks.
-              </p>
 
               <Stack />
             </div>
