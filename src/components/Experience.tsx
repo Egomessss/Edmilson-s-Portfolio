@@ -14,7 +14,7 @@ function Experience() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <div className="flex items-center justify-center flex-col">
             <TbError404 className="text-[200px] mx-auto" />
-            <p className="text-center w-[700px]">
+            <p className="text-center md:w-[700px]">
               Uncaught typeError : Cannot read property of undefined
               “experience” at &lt;workExperience/&gt;{" "}
             </p>
