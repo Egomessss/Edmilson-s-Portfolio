@@ -5,14 +5,14 @@ function Navbar() {
   const [nav, setNav] = useState(false)
 
   const handleNav = () => {
-    setNav(!nav)
+    setNav((prevState) =>!prevState)
   }
 
   const underline =
     "bg-left-bottom bg-gradient-to-r from-neongreen to-neongreen bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
 
   return (
-    <nav className="relative">
+    <nav className="relative px-10">
       <div className="flex justify-between items-center h-24">
         <h1 className="w-full font-aquirebold cursor-pointer">Home</h1>
         <ul className="hidden md:flex whitespace-nowrap">

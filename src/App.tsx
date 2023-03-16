@@ -4,39 +4,34 @@ import Contacts from "./components/Contacts"
 import Education from "./components/Education"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
+
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
+import { BsCode, BsCodeSlash } from "react-icons/bs"
 
-// <div className="max-w-[1240px] mx-auto px-4 relative snap-y snap-mandatory h-screen w-screen overflow-x-hidden">
+
 function App() {
   return (
-    <div className="max-w-[1240px] mx-auto px-4">
+    <div className="">
       <head>
         <title>Edmilson's Portfolio</title>
       </head>
-      <body>
-        <header>
-          <Navbar />
-        </header>
-        <section>
-          <Hero />
-        </section>
-        <section>
-          <About />
-        </section>
-        <section>
-          <Education />
-        </section>
-        <section>
-          <Projects />
-        </section>
-        <section>
-          <Contacts />
-        </section>
-        <footer>
-          <Footer />
-        </footer>
-      </body>
+      {/* border-l-4 border-neongreen */}
+      <Navbar />
+      <div className="border-l-4 border-neongreen relative my-40 max-w-6xl mx-auto px-8">
+        <Hero />
+        <About />
+        <Education />
+        <Projects />
+
+        <div></div>
+        {/* <div className='absolute left-0 top-52 border-l-4 border-neongreen h-[5100px]'> */}
+        <BsCode />
+        <BsCodeSlash />
+        {/* </div> */}
+      </div>
+      <Contacts />
+      <Footer />
     </div>
   )
 }
