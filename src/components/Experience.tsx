@@ -16,7 +16,7 @@ function Experience() {
             <TbError404 className="text-[200px] mx-auto" />
             <p className="text-center w-[700px]">
               Uncaught typeError : Cannot read property of undefined
-              “experience” at &lt;workExperience&gt;{" "}
+              “experience” at &lt;workExperience/&gt;{" "}
             </p>
             <span className="underline">
               Hire me to fix this error in the future.

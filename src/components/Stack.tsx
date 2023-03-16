@@ -76,7 +76,7 @@ function Stack() {
       {/* add */}
       <div className="py-10">
         <h3>Add your company tools</h3>
-        <div className="flex">
+        <div className="flex flex-wrap">
           <div className={divSTyle}>
             <SiNextdotjs className={iconStyle} />
             <p className={textStyle}>Nextjs</p>
