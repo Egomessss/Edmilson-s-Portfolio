@@ -24,7 +24,7 @@ function App() {
       <div className="mx-auto px-20">
         <About />
         <Education />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
         <Contacts />
         <Footer />
