@@ -42,12 +42,7 @@ function Stack() {
           <SiTailwindcss className={iconStyle} />
           <p className={textStyle}>Tailwind</p>
         </div>
-        <div className="relative px-6 py-3 font-bold text-black group w-[300px] h-[120px] flex items-center">
-          <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-white group-hover:translate-x-0 group-hover:translate-y-0"></span>
-          <span className="absolute inset-0 w-full h-full border-4 border-neongreen"></span>
-          <SiTailwindcss className={iconStyle} />
-          <p className={textStyle}>Tailwind</p>
-        </div>
+       
         <div className="relative px-6 py-3 font-bold text-black group w-[300px] h-[120px] flex items-center">
           <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-white group-hover:translate-x-0 group-hover:translate-y-0"></span>
           <span className="absolute inset-0 w-full h-full border-4 border-neongreen"></span>
@@ -74,7 +69,7 @@ function Stack() {
         </div>
       </div>
       {/* add */}
-      <div className="py-10">
+      {/* <div className="py-10">
         <h3>Add your company tools</h3>
         <div className="flex flex-wrap">
           <div className={divSTyle}>
@@ -102,7 +97,7 @@ function Stack() {
             <p className={textStyle}>Redux</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

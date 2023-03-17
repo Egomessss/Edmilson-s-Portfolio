@@ -10,28 +10,22 @@ import Projects from "./components/Projects"
 import { BsCode, BsCodeSlash } from "react-icons/bs"
 import Experience from "./components/Experience"
 
-
 function App() {
   return (
-    <div className="">
+    <div className=" mx-auto px-20 bg-[#101010]">
       <head>
         <title>Edmilson's Portfolio</title>
       </head>
       {/* border-l-4 border-neongreen */}
-      <Navbar />
-      <div className="border-l-4 border-neongreen relative my-40 max-w-6xl mx-auto px-8">
+      <div className="">
+        <Navbar />
         <Hero />
-        <About />
-        <Education />
-        <Experience/>
-        <Projects />
-
-        <div></div>
-        {/* <div className='absolute left-0 top-52 border-l-4 border-neongreen h-[5100px]'> */}
-        <BsCode />
-        <BsCodeSlash />
-        {/* </div> */}
       </div>
+
+      <About />
+      <Education />
+      <Experience />
+      <Projects />
       <Contacts />
       <Footer />
     </div>

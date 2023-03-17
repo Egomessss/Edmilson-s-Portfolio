@@ -3,7 +3,6 @@ import { motion } from "framer-motion"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai"
 
-
 function Hero() {
   const [text, count] = useTypewriter({
     words: [
@@ -15,36 +14,10 @@ function Hero() {
     delaySpeed: 2000,
   })
   return (
-    <div className=" h-screen flex justify-center items-center">
-      <div className=" bg-gray-300 w-full h-full flex flex-col space-y-8 items-center justify-center text-center">
-        <h1>Hi! I'm Edmilson Gomes</h1>
-        <h2 className="">
-          <span>{text}</span>
-          <Cursor cursorColor="white" />
-        </h2>
-        <div className="flex gap-2">
-          <a
-            href="https://www.linkedin.com/in/egomessss/"
-            target="_blank"
-          >
-            <AiFillLinkedin className="text-4xl hover:fill-current hover:text-neongreen" />
-          </a>
-          <a
-            href="https://github.com/Egomessss/Egomessss"
-            target="_blank"
-          >
-            {" "}
-            <AiFillGithub className="text-4xl hover:fill-current hover:text-neongreen" />
-          </a>
-        </div>
-        <a
-          href="#_"
-          className="relative px-6 py-3 font-bold text-black group"
-        >
-          <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-neongreen group-hover:translate-x-0 group-hover:translate-y-0"></span>
-          <span className="absolute inset-0 w-full h-full border-4 border-white"></span>
-          <span className="relative font-aquirebold">Resume</span>
-        </a>
+    <div className="h-[1200px] flex justify-end items-center">
+      <div className="w-full h-[400px] flex flex-col space-y-8  text-right">
+        <h1 className="text-[80px]">Quality is not a act its a habit</h1>
+        <h1 className="text-[60px]">Frontend Elevated</h1>
       </div>
     </div>
   )
