@@ -19,15 +19,17 @@ function About() {
 
   return (
     <div className="h-[2000px] py-20">
-      <h2 className="text-3xl mb-8 flex items-center gap-2">
-        <BsArrowReturnRight className="text-3xl text-white" />
-        <p>About Me</p>
-      </h2>
+      <div className=" mb-8 flex items-center gap-2">
+        <BsArrowReturnRight className="text-white text-3xl" />
+        <h2>About Me</h2>
+      </div>
+
       <div className=" w-[600px] flex gap-4 flex-col">
-        <h2 className="">
+        <h3 className="">
           <span>{text}</span>
           <Cursor cursorColor="white" />
-        </h2>
+        </h3>
+
         <div className="flex gap-2">
           <a
             href="https://www.linkedin.com/in/egomessss/"
@@ -37,12 +39,12 @@ function About() {
           <a
             href="https://github.com/Egomessss/Egomessss"
             target="_blank">
-            {" "}
             <AiFillGithub className="text-4xl hover:fill-current hover:text-neongreen" />
           </a>
         </div>
         <a
-          href="#_"
+          href="https://drive.google.com/file/d/1cEbbLkMagnuIny-cFhmmXP2PSwkC28UM/view?usp=sharing"
+          target="_blank"
           className="relative w-36 px-6 py-3 font-bold text-black group">
           <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-neongreen group-hover:translate-x-0 group-hover:translate-y-0"></span>
           <span className="absolute inset-0 w-full h-full border-4 border-white"></span>
@@ -50,6 +52,8 @@ function About() {
         </a>
       </div>
 
+
+      {/* mid section */}
       <div className="flex items-center">
         <div className="">
           <p>
@@ -73,7 +77,6 @@ function About() {
       <br />
       <div className="flex flex-row-reverse items-center">
         <div>
-          {" "}
           <p>
             I began my journey as
             <span className="font-bold text-neongreen mx-2">self taught</span>
@@ -113,7 +116,9 @@ function About() {
       </div>
 
       <div className=" flex flex-col gap-1">
-        <div className=""><Stack /></div>
+        <div className="">
+          <Stack />
+        </div>
       </div>
     </div>
   )
