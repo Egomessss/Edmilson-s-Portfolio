@@ -12,22 +12,23 @@ import Experience from "./components/Experience"
 
 function App() {
   return (
-    <div className=" mx-auto px-20 bg-[#101010]">
+    <div className="  bg-[#101010]">
       <head>
         <title>Edmilson's Portfolio</title>
       </head>
       {/* border-l-4 border-neongreen */}
-      <div className="">
+      <div className="px-20 bg-hero bg-no-repeat bg-cover bg-center">
         <Navbar />
         <Hero />
       </div>
-
-      <About />
-      <Education />
-      <Experience />
-      <Projects />
-      <Contacts />
-      <Footer />
+      <div className="mx-auto px-20">
+        <About />
+        <Education />
+        <Experience />
+        <Projects />
+        <Contacts />
+        <Footer />
+      </div>
     </div>
   )
 }

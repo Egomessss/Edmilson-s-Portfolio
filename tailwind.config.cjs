@@ -13,6 +13,9 @@ module.exports = {
       colors:{
         neongreen:"#0fff50"
       },
+      backgroundImage: {
+        'hero': "url('./assets/images/background.jpg')",
+      },
     },
   },
   plugins: [],
