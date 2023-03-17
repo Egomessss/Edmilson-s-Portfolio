@@ -18,13 +18,13 @@ function About() {
   })
 
   return (
-    <div className="h-screen py-20">
+    <div className="h-[1400px] py-20">
       <div className=" mb-8 flex items-center gap-2">
         <BsArrowReturnRight className="text-white text-3xl" />
         <h2>About Me</h2>
       </div>
 
-      <div className=" w-[600px] flex gap-4 flex-col">
+      <div className=" md:w-[600px] flex gap-4 flex-col">
         <h3 className="">
           <span>{text}</span>
           <Cursor cursorColor="white" />

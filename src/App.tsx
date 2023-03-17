@@ -16,15 +16,13 @@ function App() {
       <head>
         <title>Edmilson's Portfolio</title>
       </head>
-      {/* border-l-4 border-neongreen */}
-      <div className="px-20 bg-hero bg-no-repeat bg-cover bg-center">
+      <div className="px-52 bg-hero bg-no-repeat bg-cover bg-center">
         <Navbar />
         <Hero />
       </div>
-      <div className="mx-auto px-20">
+      <div className="mx-auto px-52">
         <About />
         <Education />
-        {/* <Experience /> */}
         <Projects />
         <Contacts />
         <Footer />
@@ -34,10 +32,4 @@ function App() {
 }
 
 export default App
-// add scroll snap
-// add circle for scroll snap
-// card animations on hover
-// standarize h's and text sizes
-// add links to a tags
-// improve about me layout
-// unbreak mobile
+

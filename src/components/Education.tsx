@@ -1,11 +1,14 @@
-import React from "react"
-import Experience from "./Experience"
+import { BsArrowReturnRight } from "react-icons/bs"
+
 
 function Education() {
   return (
     <div className="h-[800px] mt-32 md:mt-0">
-      <h2 className="">Education</h2>
-      <p>I'm commited to my education</p>
+      <div className=" mb-8 flex items-center gap-2">
+        <BsArrowReturnRight className="text-white text-3xl" />
+        <h2>Education</h2>
+      </div>
+
       <div className="h-full w-full flex justify-center items-center">
         <ol className="h-1/2 relative border-l border-gray-200">
           <li className="mt-20 ml-4">
