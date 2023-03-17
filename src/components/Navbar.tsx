@@ -13,10 +13,10 @@ function Navbar() {
     "bg-left-bottom bg-gradient-to-r from-neongreen to-neongreen bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
 
   return (
-    <nav className=" x-10">
+    <nav className="">
       <div className="flex justify-between items-center h-24">
         <h1 className="w-full font-aquirebold cursor-pointer">EG</h1>
-        <ul className="hidden md:flex whitespace-nowrap">
+        <ul className="hidden md:flex whitespace-nowrap text-xl font-bold">
           <li className="p-4">
             <a
               className="group transition-all duration-300 ease-in-out"
@@ -110,9 +110,9 @@ function Navbar() {
                       )}
                     </div>
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col ">
                     <ul className="flex flex-col gap-2 text-black">
-                      <li className="bg-white ">
+                      <li className="bg-white  ">
                         <a href="">About me</a>
                       </li>
                       <li className="bg-white ">
