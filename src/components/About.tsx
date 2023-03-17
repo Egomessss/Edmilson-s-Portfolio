@@ -18,7 +18,7 @@ function About() {
   })
 
   return (
-    <div className="h-[2000px] py-20">
+    <div className="h-screen py-20">
       <div className=" mb-8 flex items-center gap-2">
         <BsArrowReturnRight className="text-white text-3xl" />
         <h2>About Me</h2>
@@ -30,28 +30,27 @@ function About() {
           <Cursor cursorColor="white" />
         </h3>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 py-4">
           <a
             href="https://www.linkedin.com/in/egomessss/"
             target="_blank">
-            <AiFillLinkedin className="text-4xl hover:fill-current hover:text-neongreen" />
+            <AiFillLinkedin className="text-5xl hover:fill-current hover:text-neongreen" />
           </a>
           <a
             href="https://github.com/Egomessss/Egomessss"
             target="_blank">
-            <AiFillGithub className="text-4xl hover:fill-current hover:text-neongreen" />
+            <AiFillGithub className="text-5xl hover:fill-current hover:text-neongreen" />
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1cEbbLkMagnuIny-cFhmmXP2PSwkC28UM/view?usp=sharing"
+            target="_blank"
+            className="relative w-36 px-6 mx-3 py-3 font-bold text-black group">
+            <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-neongreen group-hover:translate-x-0 group-hover:translate-y-0"></span>
+            <span className="absolute inset-0 w-full h-full border-4 border-white"></span>
+            <span className="relative font-aquirebold">Resume</span>
           </a>
         </div>
-        <a
-          href="https://drive.google.com/file/d/1cEbbLkMagnuIny-cFhmmXP2PSwkC28UM/view?usp=sharing"
-          target="_blank"
-          className="relative w-36 px-6 py-3 font-bold text-black group">
-          <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-neongreen group-hover:translate-x-0 group-hover:translate-y-0"></span>
-          <span className="absolute inset-0 w-full h-full border-4 border-white"></span>
-          <span className="relative font-aquirebold">Resume</span>
-        </a>
       </div>
-
 
       {/* mid section */}
       <div className="flex items-center">
@@ -116,7 +115,7 @@ function About() {
       </div>
 
       <div className=" flex flex-col gap-1">
-        <div className="">
+        <div>
           <Stack />
         </div>
       </div>
