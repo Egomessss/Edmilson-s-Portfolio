@@ -95,7 +95,7 @@ function Navbar() {
                 leave="ease-in duration-200"
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95">
-                <Dialog.Panel className="w-full  transform overflow-hidden rounded-2xl bg-black  text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full  transform overflow-hidden  bg-black  transition-all">
                   <div className="flex justify-between items-center">
                     <h1 className="w-full font-aquirebold cursor-pointer">
                       Home
@@ -110,10 +110,10 @@ function Navbar() {
                       )}
                     </div>
                   </div>
-                  <div className="flex">
-                    <ul className="flex flex-col w-1/2 gap-2 text-black">
+                  <div className="flex flex-col">
+                    <ul className="flex flex-col gap-2 text-black">
                       <li className="bg-white ">
-                        <a href="">Link 1</a>
+                        <a href="">About me</a>
                       </li>
                       <li className="bg-white ">
                         <a href="">Wishlist </a>
@@ -134,22 +134,25 @@ function Navbar() {
                         <a href=""> Sign up</a>
                       </li>
                     </ul>
-                  </div>
-                  <div className="flex flex-wrap gap-5 w-1/2">
-                    <button
-                      onClick={() =>
-                        navigator.clipboard.writeText("ed.gomes97@gmail.com")
-                      }
-                      className="bg-gradient-to-r from-[#4285F4] via-[#D7322A]  to-[#34A853] text-start">
-                      <h1 className="text-white">Gmail - Copy to clipboard</h1>
-                    </button>
+                    <div className="flex flex-wrap gap-5 ">
+                      <button
+                        onClick={() =>
+                          navigator.clipboard.writeText("ed.gomes97@gmail.com")
+                        }
+                        className="bg-gradient-to-r from-[#4285F4] via-[#D7322A]  to-[#34A853] text-start">
+                        <h1 className="text-white text-7xl">
+                          <p>Gmail</p> 
+                          <p> - Copy to clipboard</p>
+                        </h1>
+                      </button>
 
-                    <button className="bg-[#0A66C2] text-start">
-                      <h1 className="text-white">Linkedin</h1>
-                    </button>
-                    <button className="bg-[#161B22] text-start">
-                      <h1 className="text-white">Github</h1>
-                    </button>
+                      <button className="bg-[#0A66C2] text-start w-full">
+                        <h1 className="text-white text-7xl">Linkedin</h1>
+                      </button>
+                      <button className="bg-[#161B22] text-start w-full">
+                        <h1 className="text-white text-7xl">Github</h1>
+                      </button>
+                    </div>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
