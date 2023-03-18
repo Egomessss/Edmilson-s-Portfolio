@@ -1,8 +1,8 @@
 import { BsArrowReturnRight } from "react-icons/bs"
 import Stack from "./Stack"
-import idea from "../assets/images/idea.png"
-import knowledge from "../assets/images/knowledge.png"
-import problems from "../assets/images/problems.png"
+import idea from "../assets/images/idea.webp"
+import knowledge from "../assets/images/knowledge.webp"
+import problems from "../assets/images/problems.webp"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 

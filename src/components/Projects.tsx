@@ -1,9 +1,9 @@
 import { AiFillGithub } from "react-icons/ai"
 import { BsArrowReturnRight } from "react-icons/bs"
 
-import firebnb from "../assets/images/firebnb.png"
-import portfolio from "../assets/images/portfolio.jpeg"
-import umov from "../assets/images/umov.jpeg"
+import firebnb from "../assets/images/firebnb.webp"
+import portfolio from "../assets/images/portfolio.webp"
+import umov from "../assets/images/umov.webp"
 
 function Projects() {
   return (

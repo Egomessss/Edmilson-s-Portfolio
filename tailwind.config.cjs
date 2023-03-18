@@ -14,7 +14,7 @@ module.exports = {
         neongreen:"#0fff50"
       },
       backgroundImage: {
-        'hero': "url('./assets/images/background.jpg')",
+        'hero': "url('./assets/images/background.webp')",
       },
     },
   },
