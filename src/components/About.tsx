@@ -18,7 +18,7 @@ function About() {
   })
 
   return (
-    <div className="h-[1700px] py-10 md:h-[1400px] md:py-20">
+    <div className="h-[1800px] py-10 md:h-[1400px] md:py-20">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
         <h2 id="about">About Me</h2>
@@ -68,7 +68,7 @@ function About() {
           </p>
 
           <img
-            className="h-40 w-full"
+            className="h-40"
             src={idea}
             alt="man with a lamp head"
           />
@@ -88,7 +88,7 @@ function About() {
           </p>
 
           <img
-            className="h-40 w-full"
+            className="h-40"
             src={knowledge}
             alt="magnifiying glass"
           />
@@ -107,7 +107,7 @@ function About() {
           </p>
 
           <img
-            className="h-40 w-full"
+            className="h-40"
             src={problems}
             alt="problem solver"
           />
