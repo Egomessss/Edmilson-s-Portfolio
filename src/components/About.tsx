@@ -7,7 +7,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter"
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 
 function About() {
-  const [text, count] = useTypewriter({
+  const [text] = useTypewriter({
     words: [
       "A Frontend Developer That Can Center A Div",
       "Tech Lover",

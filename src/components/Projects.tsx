@@ -2,6 +2,8 @@ import { AiFillGithub } from "react-icons/ai"
 import { BsArrowReturnRight } from "react-icons/bs"
 
 import firebnb from "../assets/images/firebnb.png"
+import portfolio from "../assets/images/portfolio.jpeg"
+import umov from "../assets/images/umov.jpeg"
 
 function Projects() {
   return (
@@ -34,7 +36,7 @@ function Projects() {
             <p className=" text-left">
               Airbnb clone with all the main navigation functionalities, which i
               did so i could learn a bit of UX and UI design before so i could
-              get some inspiration for my future apps
+              get some inspiration for my future apps.
             </p>
             <div className="flex justify-center gap-6 p-4 align-middle">
               <a
@@ -80,13 +82,13 @@ function Projects() {
         </div>
         <img
           className="col-span-2"
-          src={firebnb}
+          src={portfolio}
           alt="Personal portfolio"
         />
         {/* u-Mov */}
         <img
           className="col-span-2"
-          src={firebnb}
+          src={umov}
           alt="airbnb clone"
         />
         <div className="relative col-span-2 flex flex-col items-end justify-center gap-2 border-2 border-white">
@@ -127,18 +129,19 @@ function Projects() {
         <div className="max-w-100% group relative flex max-h-[450px] w-full">
           <img
             className="pointer"
-            src="src\assets\images\firebnb.png"
-            alt=""
+            src={firebnb}
+            alt="airbnb clone"
           />
           {/* Hover effect */}
           <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:opacity-100">
-            <h3 className=" tracking-tight">Amazon E-commerce Store Clone</h3>
+            <h3 className=" tracking-tight">Airbnb Clone</h3>
             <p className=" text-neongreen">
-              Typescript | React | Tailwind | Api
+              Javascript | React | Tailwind | Mapbox Api
             </p>
             <p>
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              Airbnb clone with all the main navigation functionalities, which i
+              did so i could learn a bit of UX and UI design before so i could
+              get some inspiration for my future apps.
             </p>
             <div className="flex justify-center gap-6 px-2 align-middle">
               <a
@@ -162,19 +165,14 @@ function Projects() {
         <div className="max-w-100% group relative flex max-h-[450px] w-full">
           <img
             className="pointer"
-            src="src\assets\images\firebnb.png"
-            alt=""
+            src={portfolio}
+            alt="Personal portfolio"
           />
           {/* Hover effect */}
           <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:opacity-100">
-            <h3 className=" tracking-tight">Amazon E-commerce Store Clone</h3>
-            <p className=" text-neongreen">
-              Typescript | React | Tailwind | Api
-            </p>
-            <p>
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
-            </p>
+            <h3 className=" tracking-tight">My Personal Portfolio</h3>
+            <p className=" text-neongreen">Javascript | React | Tailwind</p>
+            <p>A display of my creativity and simplicity</p>
             <div className="flex justify-center gap-6 px-2 align-middle">
               <a
                 href="#_"
@@ -197,18 +195,21 @@ function Projects() {
         <div className="max-w-100% group relative flex max-h-[450px] w-full">
           <img
             className="pointer"
-            src="src\assets\images\firebnb.png"
-            alt=""
+            src={umov}
+            alt="airbnb clone"
           />
           {/* Hover effect */}
           <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:bg-[#101010]/80">
-            <h3 className=" tracking-tight">Amazon E-commerce Store Clone</h3>
+            <h3 className=" tracking-tight">u-Mov</h3>
             <p className=" text-neongreen">
-              Typescript | React | Tailwind | Api
+              Typescript | Nextjs | Tailwind | Google API
             </p>
             <p>
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              Urban movement made easy - everything someone needs when moving in
+              one place.
+            </p>
+            <p className="font-semibold underline underline-offset-4">
+              Disclaimer: In-Development, to be shown in interviews.
             </p>
             <div className="flex justify-center gap-6 px-2 align-middle">
               <a
