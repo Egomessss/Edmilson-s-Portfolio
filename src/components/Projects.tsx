@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="flex h-[1500px] flex-col gap-10">
+      className="flex h-[1000px] md:h-[1500px] flex-col gap-10">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
         <h2>My projects</h2>
@@ -131,7 +131,7 @@ function Projects() {
             alt=""
           />
           {/* Hover effect */}
-          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 px-2 duration-300 group-hover:opacity-100">
+          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:opacity-100">
             {" "}
             <h3 className=" tracking-tight">Amazon E-commerce Store Clone</h3>
             <p className=" text-neongreen">
@@ -141,7 +141,7 @@ function Projects() {
               Here are the biggest enterprise technology acquisitions of 2021 so
               far, in reverse chronological order.
             </p>
-            <div className="flex justify-center gap-6 p-4 align-middle">
+            <div className="flex justify-center gap-6 px-2 align-middle">
               <a
                 href="#_"
                 className="group relative px-4  py-2 text-black">
@@ -167,7 +167,7 @@ function Projects() {
             alt=""
           />
           {/* Hover effect */}
-          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 px-2 duration-300 group-hover:opacity-100">
+          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:opacity-100">
             {" "}
             <h3 className=" tracking-tight">Amazon E-commerce Store Clone</h3>
             <p className=" text-neongreen">
@@ -177,7 +177,7 @@ function Projects() {
               Here are the biggest enterprise technology acquisitions of 2021 so
               far, in reverse chronological order.
             </p>
-            <div className="flex justify-center gap-6 p-4 align-middle">
+            <div className="flex justify-center gap-6 px-2 align-middle">
               <a
                 href="#_"
                 className="group relative px-4  py-2 text-black">
@@ -203,7 +203,7 @@ function Projects() {
             alt=""
           />
           {/* Hover effect */}
-          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 px-2 duration-300 group-hover:bg-[#101010]/80">
+          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:bg-[#101010]/80">
             {" "}
             <h3 className=" tracking-tight">Amazon E-commerce Store Clone</h3>
             <p className=" text-neongreen">
@@ -213,7 +213,7 @@ function Projects() {
               Here are the biggest enterprise technology acquisitions of 2021 so
               far, in reverse chronological order.
             </p>
-            <div className="flex justify-center gap-6 p-4 align-middle">
+            <div className="flex justify-center gap-6 px-2 align-middle">
               <a
                 href="#_"
                 className="group relative px-4  py-2 text-black">
