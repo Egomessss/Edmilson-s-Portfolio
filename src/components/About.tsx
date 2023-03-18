@@ -68,7 +68,7 @@ function About() {
           </p>
 
           <img
-            className="h-40"
+            className="h-40 w-full"
             src={idea}
             alt="man with a lamp head"
           />
@@ -88,7 +88,7 @@ function About() {
           </p>
 
           <img
-            className="h-40"
+            className="h-40 w-full"
             src={knowledge}
             alt="magnifiying glass"
           />
@@ -107,7 +107,7 @@ function About() {
           </p>
 
           <img
-            className="h-40"
+            className="h-40 w-full"
             src={problems}
             alt="problem solver"
           />
