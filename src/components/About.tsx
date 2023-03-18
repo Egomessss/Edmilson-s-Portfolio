@@ -4,7 +4,11 @@ import idea from "../assets/images/idea.png"
 import knowledge from "../assets/images/knowledge.png"
 import problems from "../assets/images/problems.png"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
-import { AiFillLinkedin, AiFillGithub, AiOutlineArrowRight } from "react-icons/ai"
+import {
+  AiFillLinkedin,
+  AiFillGithub,
+  AiOutlineArrowRight,
+} from "react-icons/ai"
 
 function About() {
   const [text, count] = useTypewriter({
@@ -18,19 +22,19 @@ function About() {
   })
 
   return (
-    <div className="h-[1400px] py-20">
-      <div className=" mb-8 flex items-center gap-2">
-        <BsArrowReturnRight className="text-white text-3xl" />
+    <div className="h-[1700px] md:h-[1400px] py-10 md:py-20">
+      <div className="flex items-center gap-2">
+        <BsArrowReturnRight className="text-3xl text-white" />
         <h2>About Me</h2>
       </div>
 
-      <div className=" md:w-[600px] flex gap-4 flex-col">
-        <h3 className="">
+      <div className="flex flex-col gap-4 md:w-[600px]">
+        <h3>
           <span>{text}</span>
           <Cursor cursorColor="white" />
         </h3>
 
-        <div className="flex gap-2 py-4">
+        <div className="flex gap-2 py-8">
           <a
             href="https://www.linkedin.com/in/egomessss/"
             target="_blank">
@@ -44,28 +48,27 @@ function About() {
           <a
             href="https://drive.google.com/file/d/1cEbbLkMagnuIny-cFhmmXP2PSwkC28UM/view?usp=sharing"
             target="_blank"
-            className="relative w-36 px-6 mx-3 py-3 font-bold text-black group">
-            <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-neongreen group-hover:translate-x-0 group-hover:translate-y-0"></span>
-            <span className="absolute inset-0 w-full h-full border-4 border-white"></span>
+            className="group relative mx-3 w-36 px-6 py-3 font-bold text-black">
+            <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
+            <span className="absolute inset-0 h-full w-full border-4 border-white"></span>
             <span className="relative font-aquirebold">Resume</span>
           </a>
         </div>
       </div>
 
       {/* mid section */}
-      <div className="flex items-center">
-        <div className="">
-          <p>
-            Hi there! I'm Edmilson, a
-            <span className="font-bold text-neongreen mx-2">
-              front-end developer from Lisbon, Portugal
-            </span>
-            who has passion for
-            <span className="font-bold text-neongreen mx-2">
-              problem-solving and creating beautiful and user-friendly websites.
-            </span>
-          </p>
-        </div>
+      <div className="flex items-center gap-4">
+        <p>
+          Hi there! I'm Edmilson, a
+          <span className="mx-2 font-bold text-neongreen">
+            front-end developer from Lisbon, Portugal
+          </span>
+          who has passion for
+          <span className="mx-2 font-bold text-neongreen">
+            problem-solving and creating applications that aim to solve real problems.
+          </span>
+        </p>
+
         <img
           className="h-40"
           src={idea}
@@ -74,19 +77,18 @@ function About() {
       </div>
 
       <br />
-      <div className="flex flex-row-reverse items-center">
-        <div>
-          <p>
-            I began my journey as
-            <span className="font-bold text-neongreen mx-2">self taught</span>
-            but as that wasn't enough for me I enrolled in a
-            <span className="font-bold text-neongreen mx-2">
-              computer science degree
-            </span>
-            because I believe that knowledge is power and it will make me
-            improve my technical abilities.
-          </p>
-        </div>
+      <div className="flex flex-row-reverse items-center gap-4">
+        <p>
+          I began my journey as
+          <span className="mx-2 font-bold text-neongreen">self taught</span>
+          but as that wasn't enough for me I enrolled in a
+          <span className="mx-2 font-bold text-neongreen">
+            computer science degree
+          </span>
+          because I believe that knowledge is power and it will make me improve
+          my technical abilities.
+        </p>
+
         <img
           className="h-40"
           src={knowledge}
@@ -95,18 +97,17 @@ function About() {
       </div>
 
       <br />
-      <div className="flex items-center">
-        <div>
-          <p>
-            I enjoy the
-            <span className="font-bold text-neongreen mx-2">challenge </span>
-            of taking a project from conception to completion, and
-            <span className="font-bold text-neongreen mx-2">
-              I pride myself on my ability to troubleshoot and find creative
-              solutions to even the most difficult problems.
-            </span>
-          </p>
-        </div>
+      <div className="flex items-center gap-4">
+        <p>
+          I enjoy the
+          <span className="mx-2 font-bold text-neongreen">challenge </span>
+          of taking a project from conception to completion, and
+          <span className="mx-2 font-bold text-neongreen">
+            I pride myself on my ability to troubleshoot and find creative
+            solutions to even the most difficult problems.
+          </span>
+        </p>
+
         <img
           className="h-40"
           src={problems}

@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="bg-[#0E0E0E]">
       <Hero />
-      {/* <div className="mx-auto px-52">
+      <div className="mx-auto px-4 md:px-20 xl:px-52">
         <About />
-        <Education />
-        <Projects />
+        {/* <Education /> */}
+        {/* <Projects />
         <Contacts />
-        <Footer />
-      </div> */}
+        <Footer /> */}
+      </div>
     </div>
   )
 }
