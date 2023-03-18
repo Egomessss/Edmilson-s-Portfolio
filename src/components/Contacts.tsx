@@ -25,11 +25,11 @@ function Contacts() {
           onClick={handleGmail}
           className="flex h-16 w-full items-center gap-2  bg-gradient-to-r from-[#4285F4]  via-[#D7322A] to-[#34A853] text-start">
           {/* change the text size */}
-          <SiGmail className="border-r-2 px-1 py-2 text-4xl md:text-7xl" />
+          <SiGmail className="border-r-2 px-1 py-2 text-4xl md:text-6xl" />
           {copied ? (
-            <h1 className="text-4xl text-white md:text-7xl">Copied!</h1>
+            <h1 className="text-4xl text-white md:text-6xl">Copied!</h1>
           ) : (
-            <h1 className="text-4xl text-white md:text-7xl">Gmail</h1>
+            <h1 className="text-4xl text-white md:text-6xl">Gmail</h1>
           )}
         </button>
         <a
@@ -37,15 +37,15 @@ function Contacts() {
           target="_blank"
           aria-label="link to linkedin"
           className="flex h-16  w-full items-center gap-2 bg-[#0A66C2] text-start">
-          <AiFillLinkedin className="border-r-2 px-1 py-2 text-4xl md:text-7xl" />
-          <h1 className="text-4xl text-white md:text-7xl">Linkedin</h1>
+          <AiFillLinkedin className="border-r-2 px-1 py-2 text-4xl md:text-6xl" />
+          <h1 className="text-4xl text-white md:text-6xl">Linkedin</h1>
         </a>
         <a
           href="https://github.com/Egomessss/Egomessss"
           target="_blank"
           className="flex h-16 w-full items-center gap-2 bg-[#161B22] text-start">
-          <AiFillGithub className="border-r-2 px-1 py-2 text-4xl md:text-7xl" />
-          <h1 className="text-4xl text-white md:text-7xl">Github</h1>
+          <AiFillGithub className="border-r-2 px-1 py-2 text-4xl md:text-6xl" />
+          <h1 className="text-4xl text-white md:text-6xl">Github</h1>
         </a>
       </div>
       <footer className="h-24 pt-20">
