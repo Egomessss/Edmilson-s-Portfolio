@@ -7,7 +7,6 @@ import { Cursor, useTypewriter } from "react-simple-typewriter"
 import {
   AiFillLinkedin,
   AiFillGithub,
-  AiOutlineArrowRight,
 } from "react-icons/ai"
 
 function About() {
