@@ -12,9 +12,9 @@ function App() {
       <Hero />
       <div className="mx-auto px-4 md:px-20 xl:px-52">
         <About />
-        {/* <Education /> */}
-        {/* <Projects />
-        <Contacts />
+        <Education />
+        <Projects />
+        {/* <Contacts />
         <Footer /> */}
       </div>
     </div>
