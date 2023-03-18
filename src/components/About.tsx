@@ -4,7 +4,7 @@ import idea from "../assets/images/idea.png"
 import knowledge from "../assets/images/knowledge.png"
 import problems from "../assets/images/problems.png"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
+import { AiFillLinkedin, AiFillGithub, AiOutlineArrowRight } from "react-icons/ai"
 
 function About() {
   const [text, count] = useTypewriter({

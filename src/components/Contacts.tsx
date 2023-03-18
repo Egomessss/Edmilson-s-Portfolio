@@ -3,7 +3,7 @@ import { SiGmail } from "react-icons/si"
 
 function Contacts() {
   return (
-    <div className="h-[1000px">
+    <div className="h-[1000px]">
       <h2 className="font-medium pb-20">Contact Me</h2>
       <div className="flex flex-col gap-5">
         <button
