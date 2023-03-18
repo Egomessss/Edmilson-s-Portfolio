@@ -4,7 +4,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter"
 
 function Hero() {
   const [text] = useTypewriter({
-    words: ["Creating", "Designing for", "Coding for"],
+    words: ["Creating", "Designing for", "Developing for"],
     loop: true,
     delaySpeed: 2000,
   })
@@ -22,7 +22,7 @@ function Hero() {
         <h2 className="text-2xl text-white md:text-[50px] lg:text-[70px] 2xl:text-[80px]">
           <span>
             {text}
-            <Cursor cursorColor="white" /> impact
+            <Cursor cursorColor="white" />impact
           </span>
         </h2>
       </div>
