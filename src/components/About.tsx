@@ -4,10 +4,7 @@ import idea from "../assets/images/idea.png"
 import knowledge from "../assets/images/knowledge.png"
 import problems from "../assets/images/problems.png"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-} from "react-icons/ai"
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 
 function About() {
   const [text, count] = useTypewriter({
@@ -21,7 +18,7 @@ function About() {
   })
 
   return (
-    <div className="h-[1700px] md:h-[1400px] py-10 md:py-20">
+    <div className="h-[1700px] py-10 md:h-[1400px] md:py-20">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
         <h2 id="about">About Me</h2>
@@ -56,62 +53,65 @@ function About() {
       </div>
 
       {/* mid section */}
-      <div className="flex items-center gap-4">
-        <p>
-          Hi there! I'm Edmilson, a
-          <span className="mx-2 font-bold text-neongreen">
-            front-end developer from Lisbon, Portugal
-          </span>
-          who has passion for
-          <span className="mx-2 font-bold text-neongreen">
-            problem-solving and creating applications that aim to solve real problems.
-          </span>
-        </p>
+      <div className="flex flex-col gap-8">
+        <div className="flex items-center gap-4">
+          <p>
+            Hi there! I'm Edmilson, a
+            <span className="mx-2 font-bold text-neongreen">
+              front-end developer from Lisbon, Portugal
+            </span>
+            who has passion for
+            <span className="mx-2 font-bold text-neongreen">
+              problem-solving and creating applications that aim to solve real
+              problems.
+            </span>
+          </p>
 
-        <img
-          className="h-40"
-          src={idea}
-          alt="man with a lamp head"
-        />
-      </div>
+          <img
+            className="h-40"
+            src={idea}
+            alt="man with a lamp head"
+          />
+        </div>
 
-      <br />
-      <div className="flex flex-row-reverse items-center gap-4">
-        <p>
-          I began my journey as
-          <span className="mx-2 font-bold text-neongreen">self taught</span>
-          but as that wasn't enough for me I enrolled in a
-          <span className="mx-2 font-bold text-neongreen">
-            computer science degree
-          </span>
-          because I believe that knowledge is power and it will make me improve
-          my technical abilities.
-        </p>
+        <br />
+        <div className="flex flex-row-reverse items-center gap-4">
+          <p>
+            I began my journey as
+            <span className="mx-2 font-bold text-neongreen">self taught</span>
+            but as that wasn't enough for me I enrolled in a
+            <span className="mx-2 font-bold text-neongreen">
+              computer science degree
+            </span>
+            because I believe that knowledge is power and it will make me
+            improve my technical abilities.
+          </p>
 
-        <img
-          className="h-40"
-          src={knowledge}
-          alt="magnifiying glass"
-        />
-      </div>
+          <img
+            className="h-40"
+            src={knowledge}
+            alt="magnifiying glass"
+          />
+        </div>
 
-      <br />
-      <div className="flex items-center gap-4">
-        <p>
-          I enjoy the
-          <span className="mx-2 font-bold text-neongreen">challenge </span>
-          of taking a project from conception to completion, and
-          <span className="mx-2 font-bold text-neongreen">
-            I pride myself on my ability to troubleshoot and find creative
-            solutions to even the most difficult problems.
-          </span>
-        </p>
+        <br />
+        <div className="flex items-center gap-4">
+          <p>
+            I enjoy the
+            <span className="mx-2 font-bold text-neongreen">challenge </span>
+            of taking a project from conception to completion, and
+            <span className="mx-2 font-bold text-neongreen">
+              I pride myself on my ability to troubleshoot and find creative
+              solutions to even the most difficult problems.
+            </span>
+          </p>
 
-        <img
-          className="h-40"
-          src={problems}
-          alt="problem solver"
-        />
+          <img
+            className="h-40"
+            src={problems}
+            alt="problem solver"
+          />
+        </div>
       </div>
 
       <div className=" flex flex-col gap-1">

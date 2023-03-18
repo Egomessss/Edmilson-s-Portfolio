@@ -17,7 +17,7 @@ function Contacts() {
       className="h-[500px] md:h-[700px] md:py-20">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
-        <h2>Looking to reach out?</h2>
+        <h2>Reach out</h2>
       </div>
       <div className="mt-20 flex flex-wrap">
         <button
