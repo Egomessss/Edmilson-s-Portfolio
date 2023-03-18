@@ -18,7 +18,7 @@ function App() {
         <Projects />
         <Contacts />
       </div>
-     <Sidebar/>
+      <Sidebar />
     </div>
   )
 }
