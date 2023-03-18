@@ -23,7 +23,7 @@ function Navbar() {
   }
 
   return (
-    <nav >
+    <nav>
       <div className="flex h-24 items-center justify-between">
         <h1 className="w-full cursor-pointer font-aquirebold">EG</h1>
         <ul className="hidden whitespace-nowrap text-xl font-bold md:flex">
@@ -53,7 +53,7 @@ function Navbar() {
             <a
               className="group transition-all duration-300 ease-in-out"
               href="#contacts">
-              <span className={underline}>Contact Me</span>
+              <span className={underline}>Reach out</span>
             </a>
           </li>
         </ul>
@@ -110,33 +110,33 @@ function Navbar() {
                     </button>
                   </div>
                   <div className="flex h-full flex-col ">
-                    <ul className="flex flex-col gap-8 px-4 text-black">
-                      <li className="text-right text-3xl font-bold text-white  ">
+                    <ul className="flex flex-col items-end gap-8 px-4 text-black">
+                      <li className="w-1/2 border-b-2 border-b-neongreen text-right text-3xl  font-bold text-white">
                         <a
                           onClick={handleAnchor}
                           href="#about">
                           About me
                         </a>
                       </li>
-                      <li className="text-right text-3xl font-bold text-white ">
+                      <li className="w-[66%] border-b-2 border-b-neongreen text-right text-3xl  font-bold text-white">
                         <a
                           onClick={handleAnchor}
                           href="#education">
                           Education
                         </a>
                       </li>
-                      <li className="text-right text-3xl font-bold text-white ">
+                      <li className="w-[82%] border-b-2 border-b-neongreen text-right text-3xl  font-bold text-white">
                         <a
                           onClick={handleAnchor}
                           href="#projects">
                           Projects
                         </a>
                       </li>
-                      <li className="text-right text-3xl font-bold text-white ">
+                      <li className="w-full border-b-2 border-b-neongreen text-right text-3xl  font-bold text-white">
                         <a
                           onClick={handleAnchor}
                           href="#contacts">
-                          Contact me
+                          Reach out
                         </a>
                       </li>
                     </ul>
