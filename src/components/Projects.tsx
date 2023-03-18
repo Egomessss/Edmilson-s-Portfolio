@@ -7,7 +7,7 @@ import portfolio from "../assets/images/portfolio.png"
 
 function Projects() {
   return (
-    <div className="flex h-[1800px] flex-col gap-10">
+    <div className="flex h-[1500px] flex-col gap-10">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
         <h2>My projects</h2>
