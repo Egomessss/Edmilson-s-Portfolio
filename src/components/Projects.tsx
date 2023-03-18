@@ -1,13 +1,13 @@
-import React from "react"
 import { AiFillGithub } from "react-icons/ai"
 import { BsArrowReturnRight } from "react-icons/bs"
 
 import firebnb from "../assets/images/firebnb.png"
-import portfolio from "../assets/images/portfolio.png"
 
 function Projects() {
   return (
-    <div className="flex h-[1500px] flex-col gap-10">
+    <div
+      id="projects"
+      className="flex h-[1500px] flex-col gap-10">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
         <h2>My projects</h2>
@@ -60,12 +60,11 @@ function Projects() {
         <div className="flex md:flex-row-reverse">
           <div className="relative md:h-1/2 md:w-1/2">
             <img
-              className=""
               src={firebnb}
               alt="Personal portfolio"
             />
-            <div className="absolute w-full top-20 flex flex-col items-center gap-2 bg-[#101010]/80 px-2 md:top-24 md:right-96 md:w-[500px]">
-              <h3 className="">My Personal Portfolio</h3>
+            <div className="absolute top-20 flex w-full flex-col items-center gap-2 bg-[#101010]/80 px-2 md:top-24 md:right-96 md:w-[500px]">
+              <h3>My Personal Portfolio</h3>
               <p className="m-2 text-neongreen">
                 Javascript | React | Tailwind
               </p>

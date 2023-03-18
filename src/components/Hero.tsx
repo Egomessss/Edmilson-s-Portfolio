@@ -20,7 +20,10 @@ function Hero() {
           it is a habit
         </h1>
         <h2 className="text-2xl text-white md:text-[50px] lg:text-[70px] 2xl:text-[80px]">
-          {text} Impact
+          <span>
+            {text}
+            <Cursor cursorColor="white" /> impact
+          </span>
         </h2>
       </div>
     </div>

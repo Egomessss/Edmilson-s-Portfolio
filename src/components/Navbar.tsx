@@ -14,6 +14,8 @@ function Navbar() {
   const underline =
     "bg-left-bottom bg-gradient-to-r from-neongreen to-neongreen bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
 
+  const handleAnchor = () => setIsOpen(false)
+
   const [copied, setCopied] = useState(false)
   const handleGmail = () => {
     navigator.clipboard.writeText("ed.gomes97@gmail.com")
@@ -21,14 +23,14 @@ function Navbar() {
   }
 
   return (
-    <nav className="">
+    <nav >
       <div className="flex h-24 items-center justify-between">
         <h1 className="w-full cursor-pointer font-aquirebold">EG</h1>
         <ul className="hidden whitespace-nowrap text-xl font-bold md:flex">
           <li className="p-4">
             <a
               className="group transition-all duration-300 ease-in-out"
-              href="#">
+              href="#about">
               <span className={underline}>About Me</span>
             </a>
           </li>
@@ -36,21 +38,21 @@ function Navbar() {
           <li className="p-4">
             <a
               className="group transition-all duration-300 ease-in-out"
-              href="#">
+              href="#education">
               <span className={underline}>Education</span>
             </a>
           </li>
           <li className="p-4">
             <a
               className="group transition-all duration-500 ease-in-out"
-              href="#">
+              href="#projects">
               <span className={underline}>Projects</span>
             </a>
           </li>
           <li className="p-4">
             <a
               className="group transition-all duration-300 ease-in-out"
-              href="#">
+              href="#contacts">
               <span className={underline}>Contact Me</span>
             </a>
           </li>
@@ -99,9 +101,7 @@ function Navbar() {
                 <Dialog.Panel className="w-full transform overflow-hidden    transition-all">
                   <div className="mb-32 flex h-full items-center justify-between py-4 px-4">
                     <h1>EG</h1>
-                    <button
-                   
-                      onClick={handleModal}>
+                    <button onClick={handleModal}>
                       {isOpen ? (
                         <RiCloseLine className="text-3xl" />
                       ) : (
@@ -110,24 +110,37 @@ function Navbar() {
                     </button>
                   </div>
                   <div className="flex h-full flex-col ">
-                    <ul className="flex flex-col gap-8 text-black px-4">
+                    <ul className="flex flex-col gap-8 px-4 text-black">
                       <li className="text-right text-3xl font-bold text-white  ">
-                        <a href="">About me</a>
-                      </li>
-                      <li className="text-right text-3xl font-bold text-white  ">
-                        <a href="">My tools</a>
-                      </li>
-                      <li className="text-right text-3xl font-bold text-white ">
-                        <a href="">Education</a>
+                        <a
+                          onClick={handleAnchor}
+                          href="#about">
+                          About me
+                        </a>
                       </li>
                       <li className="text-right text-3xl font-bold text-white ">
-                        <a href="">Projects</a>
+                        <a
+                          onClick={handleAnchor}
+                          href="#education">
+                          Education
+                        </a>
                       </li>
                       <li className="text-right text-3xl font-bold text-white ">
-                        <a href="">Contact me</a>
+                        <a
+                          onClick={handleAnchor}
+                          href="#projects">
+                          Projects
+                        </a>
+                      </li>
+                      <li className="text-right text-3xl font-bold text-white ">
+                        <a
+                          onClick={handleAnchor}
+                          href="#contacts">
+                          Contact me
+                        </a>
                       </li>
                     </ul>
-                    <div className="flex flex-wrap mt-20">
+                    <div className="mt-20 flex flex-wrap">
                       <button
                         onClick={handleGmail}
                         className="flex h-16 w-full items-center gap-2  bg-gradient-to-r from-[#4285F4]  via-[#D7322A] to-[#34A853] text-start">
@@ -143,18 +156,24 @@ function Navbar() {
                           </h1>
                         )}
                       </button>
-                      <button className="flex h-16  w-full items-center gap-2 bg-[#0A66C2] text-start">
+                      <a
+                        href="https://www.linkedin.com/in/egomessss/"
+                        target="_blank"
+                        className="flex h-16  w-full items-center gap-2 bg-[#0A66C2] text-start">
                         <AiFillLinkedin className="border-r-2 px-1 text-4xl md:text-7xl" />
                         <h1 className="text-4xl text-white md:text-7xl">
                           Linkedin
                         </h1>
-                      </button>
-                      <button className="flex h-16 w-full items-center gap-2 bg-[#161B22] text-start">
+                      </a>
+                      <a
+                        href="https://github.com/Egomessss/Egomessss"
+                        target="_blank"
+                        className="flex h-16 w-full items-center gap-2 bg-[#161B22] text-start">
                         <AiFillGithub className="border-r-2 px-1 text-4xl md:text-7xl" />
                         <h1 className="text-4xl text-white md:text-7xl">
                           Github
                         </h1>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </Dialog.Panel>

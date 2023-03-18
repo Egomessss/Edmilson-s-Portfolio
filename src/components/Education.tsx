@@ -3,7 +3,7 @@ import { BsArrowReturnRight } from "react-icons/bs"
 
 function Education() {
   return (
-    <div className="h-[800px] mt-32 md:mt-0">
+    <div id="education" className="h-[800px] mt-32 md:mt-0">
       <div className=" mb-8 flex items-center gap-2">
         <BsArrowReturnRight className="text-white text-3xl" />
         <h2>Education</h2>

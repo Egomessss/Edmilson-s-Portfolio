@@ -25,7 +25,7 @@ function About() {
     <div className="h-[1700px] md:h-[1400px] py-10 md:py-20">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
-        <h2>About Me</h2>
+        <h2 id="about">About Me</h2>
       </div>
 
       <div className="flex flex-col gap-4 md:w-[600px]">
@@ -72,7 +72,7 @@ function About() {
         <img
           className="h-40"
           src={idea}
-          alt=""
+          alt="man with a lamp head"
         />
       </div>
 
@@ -92,7 +92,7 @@ function About() {
         <img
           className="h-40"
           src={knowledge}
-          alt=""
+          alt="magnifiying glass"
         />
       </div>
 
@@ -111,7 +111,7 @@ function About() {
         <img
           className="h-40"
           src={problems}
-          alt=""
+          alt="problem solver"
         />
       </div>
 
