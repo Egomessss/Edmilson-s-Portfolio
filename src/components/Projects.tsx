@@ -24,7 +24,7 @@ function Projects() {
           className="col-span-2"
           src={firebnb}
           alt="airbnb clone"
-        />{" "}
+        />
         <div className="relative col-span-2 flex flex-col items-end justify-center gap-2 border-2 border-white px-6">
           <div className="absolute top-1/4 -left-1/3 h-[200px] w-[500px] border-2 border-neongreen bg-[#101010]/80 px-4">
             <h3 className="text-left">Airbnb Clone</h3>
@@ -88,17 +88,19 @@ function Projects() {
           className="col-span-2"
           src={firebnb}
           alt="airbnb clone"
-        />{" "}
+        />
         <div className="relative col-span-2 flex flex-col items-end justify-center gap-2 border-2 border-white">
           <div className="absolute top-1/4 -left-1/3 h-[200px] w-[500px] border-2 border-neongreen bg-[#101010]/80 px-4">
-            <h3 className="text-left">Airbnb Clone</h3>
+            <h3 className="text-left">u-Mov</h3>
             <p className="text-left text-neongreen">
-              Javascript | React | Tailwind | Mapbox Api
+              Typescript | Nextjs | Tailwind | Google API
             </p>
             <p className=" text-left">
-              Airbnb clone with all the main navigation functionalities, which i
-              did so i could learn a bit of UX and UI design before so i could
-              get some inspiration for my future apps
+              Urban movement made easy - everything someone needs when moving in
+              one place.
+            </p>
+            <p className="font-semibold underline underline-offset-4">
+              Disclaimer: In-Development, to be shown in interviews.
             </p>
             <div className="flex justify-center gap-6 p-4 align-middle">
               <a
@@ -126,7 +128,7 @@ function Projects() {
           className="col-span-2"
           src={firebnb}
           alt="airbnb clone"
-        />{" "}
+        />
         <div className="col-span-2 flex flex-col items-end justify-center gap-2 border-2 border-white">
           <h3 className="text-right">Airbnb Clone</h3>
           <p className="text-right text-neongreen">
