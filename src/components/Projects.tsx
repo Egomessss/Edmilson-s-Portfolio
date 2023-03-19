@@ -34,20 +34,22 @@ function Projects() {
               Javascript | React | Tailwind | Mapbox Api
             </p>
             <p className=" text-left">
-              Airbnb clone with all the main navigation functionalities, which i
-              did so i could learn a bit of UX and UI design before so i could
-              get some inspiration for my future apps.
+              Airbnb clone with all the main navigation functionalities, I built
+              this so I could learn amazing UX and UI techniques, to use In my
+              future apps.
             </p>
             <div className="flex justify-center gap-6 p-4 align-middle">
               <a
-                href="#_"
+                href="https://firebnb.vercel.app/"
+                target="blank"
                 className="group relative px-4  py-2 text-black">
                 <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
                 <span className="relative font-aquirebold">Live Demo</span>
               </a>
               <a
-                href="#_"
+                href="https://github.com/Egomessss/Airbnb"
+                target="blank"
                 className="group  relative px-4 py-2 font-bold text-black">
                 <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
@@ -57,7 +59,7 @@ function Projects() {
           </div>
         </div>
         {/* portfolio */}
-        <div className=" col-span-2 flex  flex-col items-center justify-center gap-2 border-2 border-white ">
+        <div className=" col-span-2  flex  flex-col items-center justify-center gap-2 border-2 border-white ">
           <h3>My Personal Portfolio</h3>
           <p className="m-2 text-neongreen">Javascript | React | Tailwind</p>
           <p className=" text-center">
@@ -65,14 +67,15 @@ function Projects() {
           </p>
           <div className="flex justify-center gap-6 p-4 align-middle">
             <a
-              href="#_"
+              href="#"
               className="group relative px-4  py-2 text-black">
               <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
               <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
               <span className="relative font-aquirebold">Live Demo</span>
             </a>
             <a
-              href="#_"
+              href="https://github.com/Egomessss/portfolioReact"
+              target="blank"
               className="group  relative px-4 py-2 font-bold text-black">
               <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
               <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
@@ -102,7 +105,7 @@ function Projects() {
               one place.
             </p>
             <p className="font-semibold underline underline-offset-4">
-              Disclaimer: In-Development, to be shown in interviews.
+              Disclaimer: In Development, to be shown in interviews.
             </p>
             <div className="flex justify-center gap-6 p-4 align-middle">
               <a
@@ -124,7 +127,7 @@ function Projects() {
         </div>
       </div>
       {/* mobile */}
-      <div className="flex flex-col gap-4 xl:hidden">
+      <div className="sm:text-lg flex flex-col gap-4 text-xs  xl:hidden">
         {/* firebnb */}
         <div className="max-w-100% group relative flex max-h-[450px] w-full">
           <img
@@ -133,26 +136,28 @@ function Projects() {
             alt="airbnb clone"
           />
           {/* Hover effect */}
-          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:opacity-100">
+          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-4 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:opacity-100">
             <h3 className=" tracking-tight">Airbnb Clone</h3>
             <p className=" text-neongreen">
               Javascript | React | Tailwind | Mapbox Api
             </p>
             <p>
-              Airbnb clone with all the main navigation functionalities, which i
-              did so i could learn a bit of UX and UI design before so i could
-              get some inspiration for my future apps.
+              Airbnb clone with all the main navigation functionalities, I built
+              this so I could learn amazing UX and UI techniques, to use In my
+              future apps.
             </p>
             <div className="flex justify-center gap-6 px-2 align-middle">
               <a
-                href="#_"
+                href="https://firebnb.vercel.app/"
+                target="blank"
                 className="group relative px-4  py-2 text-black">
                 <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
                 <span className="relative font-aquirebold">Live Demo</span>
               </a>
               <a
-                href="#_"
+                href="https://github.com/Egomessss/Airbnb"
+                target="blank"
                 className="group  relative px-4 py-2 font-bold text-black">
                 <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
@@ -169,7 +174,7 @@ function Projects() {
             alt="Personal portfolio"
           />
           {/* Hover effect */}
-          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:opacity-100">
+          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-4 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:opacity-100">
             <h3 className=" tracking-tight">My Personal Portfolio</h3>
             <p className=" text-neongreen">Javascript | React | Tailwind</p>
             <p>A display of my creativity and simplicity</p>
@@ -182,7 +187,8 @@ function Projects() {
                 <span className="relative font-aquirebold">Live Demo</span>
               </a>
               <a
-                href="#_"
+                href="https://github.com/Egomessss/portfolioReact"
+                target="blank"
                 className="group  relative px-4 py-2 font-bold text-black">
                 <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
                 <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
@@ -199,7 +205,7 @@ function Projects() {
             alt="airbnb clone"
           />
           {/* Hover effect */}
-          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-2 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:bg-[#101010]/80">
+          <div className=" absolute inset-x-0 bottom-0 flex h-full max-w-sm flex-col items-start justify-center gap-4 border-2 border-white bg-[#101010]/80 p-2 duration-300 group-hover:bg-[#101010]/80">
             <h3 className=" tracking-tight">u-Mov</h3>
             <p className=" text-neongreen">
               Typescript | Nextjs | Tailwind | Google API
@@ -209,7 +215,7 @@ function Projects() {
               one place.
             </p>
             <p className="font-semibold underline underline-offset-4">
-              Disclaimer: In-Development, to be shown in interviews.
+              Disclaimer: In Development, to be shown in interviews.
             </p>
             <div className="flex justify-center gap-6 px-2 align-middle">
               <a
