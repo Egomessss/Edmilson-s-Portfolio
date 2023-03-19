@@ -58,11 +58,11 @@ function About() {
           <p>
             Hi there! I'm Edmilson, a
             <span className="mx-2 font-bold text-neongreen">
-              front-end developer from Lisbon, Portugal
+              frontend developer from Lisbon, Portugal
             </span>
             who has passion for
             <span className="mx-2 font-bold text-neongreen">
-              problem-solving and creating applications that aim to solve real
+              problem-solving and creating applications that aim to solve real world
               problems.
             </span>
           </p>
@@ -78,13 +78,12 @@ function About() {
         <div className="flex flex-row-reverse items-center gap-4">
           <p>
             I began my journey as
-            <span className="mx-2 font-bold text-neongreen">self taught</span>
-            but as that wasn't enough for me I enrolled in a
+            <span className="mx-2 font-bold text-neongreen">self taught,</span>
+            but that wasn't enough, so I enrolled in a
             <span className="mx-2 font-bold text-neongreen">
-              computer science degree
+              computer science degree,
             </span>
-            because I believe that knowledge is power and it will make me
-            improve my technical abilities.
+            as I believe that step will take my skills to the next level.
           </p>
 
           <img
