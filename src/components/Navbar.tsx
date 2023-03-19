@@ -140,7 +140,7 @@ function Navbar() {
                         </a>
                       </li>
                     </ul>
-                    <div className="mt-20 flex flex-wrap">
+                    <div className="mt-14 flex flex-wrap">
                       <button
                         onClick={handleGmail}
                         className="flex h-16 w-full items-center gap-2  bg-gradient-to-r from-[#4285F4]  via-[#D7322A] to-[#34A853] text-start">
