@@ -25,7 +25,7 @@ function About() {
       </div>
 
       <div className="flex flex-col gap-4 md:w-[600px]">
-        <h3>
+        <h3 className="h-20 py-8">
           <span>{text}</span>
           <Cursor cursorColor="white" />
         </h3>

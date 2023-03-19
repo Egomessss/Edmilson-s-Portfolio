@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <nav>
       <div className="flex h-24 items-center justify-between">
-        <h1 className="w-full cursor-pointer font-aquirebold">EG</h1>
+        <h1>EG</h1>
         <ul className="hidden whitespace-nowrap text-xl font-bold md:flex">
           <li className="p-4">
             <a
