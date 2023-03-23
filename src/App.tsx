@@ -10,7 +10,7 @@ import Sidebar from "./components/Sidebar"
 
 function App() {
   return (
-    <div className="scroll-smooth bg-[#0E0E0E]">
+    <div className="bg-[#0E0E0E]">
       <Hero />
       <div className="mx-auto px-4 md:px-20 lg:px-40 xl:px-52">
         <About />
