@@ -10,6 +10,12 @@
   color: white;
 }
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 @font-face {
   font-family: aquirelight;
   src: url(./fonts/AquireLight-YzE0o.otf);
