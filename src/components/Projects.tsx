@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="flex h-[1500px] flex-col gap-10">
+      className="flex h-[2500px] flex-col gap-10">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
         <h2>My projects</h2>
@@ -30,7 +30,7 @@ function Projects() {
           <div className="absolute top-20 flex flex-col items-end gap-2 bg-[#101010]/80 px-2 md:top-24 md:left-96 md:w-[500px]">
             <h3 className="text-right">Airbnb Clone</h3>
             <p className="text-right text-neongreen">
-              Javascript | React | Tailwind | Mapbox Api
+               React | Tailwind | Mapbox Api
             </p>
             <p className=" text-right">
               Airbnb clone with all the main navigation functionalities, which i
@@ -66,7 +66,7 @@ function Projects() {
             <div className="absolute top-20 flex w-full flex-col items-center gap-2 bg-[#101010]/80 px-2 md:top-24 md:right-96 md:w-[500px]">
               <h3>My Personal Portfolio</h3>
               <p className="m-2 text-neongreen">
-                Javascript | React | Tailwind
+                 React | Tailwind
               </p>
               <p className=" text-center">
                 A display of my creativity and simplicity
@@ -124,6 +124,40 @@ function Projects() {
                 <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
                 <span className="relative font-aquirebold">Code</span>
               </a>
+            </div>
+          </div>
+          
+        </div>
+        <div className="flex md:flex-row-reverse">
+          <div className="relative md:h-1/2 md:w-1/2">
+            <img
+              src={firebnb}
+              alt="Personal portfolio"
+            />
+            <div className="absolute top-20 flex w-full flex-col items-center gap-2 bg-[#101010]/80 px-2 md:top-24 md:right-96 md:w-[500px]">
+              <h3>My Personal Blog</h3>
+              <p className="m-2 text-neongreen">
+                Next.js | Tailwind | GraphCMS
+              </p>
+              <p className=" text-center">
+                A display of my creativity and simplicity
+              </p>
+              <div className="flex justify-center gap-6 p-4 align-middle">
+                <a
+                  href="#_"
+                  className="group relative px-4  py-2 text-black">
+                  <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                  <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
+                  <span className="relative font-aquirebold">Live Demo</span>
+                </a>
+                <a
+                  href="#_"
+                  className="group  relative px-4 py-2 font-bold text-black">
+                  <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform bg-neongreen transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
+                  <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
+                  <span className="relative font-aquirebold">Code</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
