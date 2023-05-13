@@ -25,17 +25,23 @@ function Navbar() {
   return (
     <nav>
       <div className="flex h-24 items-center justify-between">
-        <h1 className="w-full cursor-pointer font-aquirebold ">EG</h1>
-        
+        <a
+          className="group transition-all duration-300 ease-in-out"
+          href="#">
+          <h1 className="bg-gradient-to-r  from-white to-white bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]">
+            EG
+          </h1>
+        </a>
+
         <ul className="hidden whitespace-nowrap text-xl font-bold md:flex">
-        <li className="p-4">
-          <a
-            href="http://tecedblog.com/"
-            target="_blank"
-            className="group transition-all duration-300 ease-in-out">
-            <span className={underline}>Blog</span>
-          </a>
-        </li>
+          <li className="p-4">
+            <a
+              href="http://tecedblog.com/"
+              target="_blank"
+              className="group transition-all duration-300 ease-in-out">
+              <span className={underline}>Blog</span>
+            </a>
+          </li>
           <li className="p-4">
             <a
               className="group transition-all duration-300 ease-in-out"
