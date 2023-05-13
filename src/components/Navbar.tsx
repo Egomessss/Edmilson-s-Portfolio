@@ -12,7 +12,7 @@ function Navbar() {
   const closeModal = () => setIsOpen(false)
 
   const underline =
-    "bg-left-bottom bg-gradient-to-r from-neongreen to-neongreen bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+    "bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
 
   const handleAnchor = () => setIsOpen(false)
 
