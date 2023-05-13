@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <div className="scroll-smooth bg-[#0E0E0E]">
+    <div className="scroll-smooth">
       <Hero />
       <div className="mx-auto px-4 md:px-20 xl:px-52">
         <About />
