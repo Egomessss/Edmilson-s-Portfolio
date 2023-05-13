@@ -1,6 +1,6 @@
 import { AiFillApi } from "react-icons/ai"
 import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa"
-import { SiTailwindcss, SiJavascript } from "react-icons/si"
+import { SiTailwindcss, SiJavascript, SiNextdotjs } from "react-icons/si"
 
 import { DiGit } from "react-icons/di"
 import { BsArrowReturnRight } from "react-icons/bs"
@@ -8,9 +8,9 @@ function Stack() {
   const divStyle =
     "relative px-6 py-3 font-bold text-black group w-[160px] md:w-[200px] h-[120px] flex items-center cursor-pointer"
   const spanStyle =
-    "absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-white group-hover:translate-x-0 group-hover:translate-y-0"
-  const iconStyle = " md:p-2 text-neongreen text-2xl md:text-7xl group relative flex"
-  const textStyle = "text-center text-neongreen relative font-aquirebold"
+    "absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-neongreen group-hover:translate-x-0 group-hover:translate-y-0"
+  const iconStyle = " md:p-2 text-black text-2xl md:text-7xl group relative flex"
+  const textStyle = "text-center text-black relative font-aquirebold"
 
   return (
     <div>
@@ -61,6 +61,12 @@ function Stack() {
           <span className="absolute inset-0 h-full w-full border-4 border-white"></span>
           <DiGit className={iconStyle} />
           <p className={textStyle}>Git</p>
+        </div>
+        <div className={divStyle}>
+          <span className={spanStyle}></span>
+          <span className="absolute inset-0 h-full w-full border-4 border-white"></span>
+          <SiNextdotjs className={iconStyle} />
+          <p className={textStyle}>Next.js</p>
         </div>
       </div>
     </div>
