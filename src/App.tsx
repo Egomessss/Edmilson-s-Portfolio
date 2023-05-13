@@ -27,7 +27,7 @@ function App() {
       <div>
         <div className="fixed left-0 top-96 z-50 hidden flex-col space-y-3 bg-transparent px-5 py-3 md:flex">
           <a href="#">
-            <AiOutlineArrowUp className="border-r-2 px-1  text-7xl" />
+            <AiOutlineArrowUp className="border-r-2 px-1  text-7xl hover:fill-neongreen" />
           </a>
           <button
             aria-label="copy gmail to clipboard"
@@ -36,7 +36,7 @@ function App() {
             {copied ? (
               <p className="border-r-2 px-1 font-bold">Copied!</p>
             ) : (
-              <SiGmail className="border-r-2 px-1  text-7xl" />
+              <SiGmail className="border-r-2 px-2  text-7xl hover:fill-neongreen" />
             )}
           </button>
           <a
@@ -44,13 +44,19 @@ function App() {
             target="_blank"
             aria-label="link to linkedin"
             className="flex h-16  w-full items-center gap-2  text-start">
-            <AiFillLinkedin className="border-r-2 px-1  text-7xl" />
+            <AiFillLinkedin className="border-r-2 px-1  text-7xl hover:fill-neongreen" />
           </a>
           <a
             href="https://github.com/Egomessss/Egomessss"
             target="_blank"
             className="flex h-16 w-full items-center gap-2  text-start">
-            <AiFillGithub className="border-r-2 px-1  text-7xl" />
+            <AiFillGithub className="border-r-2 px-1  text-7xl hover:fill-neongreen" />
+          </a>
+          <a
+            href="http://tecedblog.com/"
+            target="_blank"
+            className="flex h-16 w-full items-center gap-2  border-r-2 px-1 text-start text-xl font-bold hover:text-neongreen ">
+            BLOG
           </a>
         </div>
       </div>

@@ -23,10 +23,19 @@ function Navbar() {
   }
 
   return (
-    <nav >
+    <nav>
       <div className="flex h-24 items-center justify-between">
-        <h1 className="w-full cursor-pointer font-aquirebold">EG</h1>
+        <h1 className="w-full cursor-pointer font-aquirebold ">EG</h1>
+        
         <ul className="hidden whitespace-nowrap text-xl font-bold md:flex">
+        <li className="p-4">
+          <a
+            href="http://tecedblog.com/"
+            target="_blank"
+            className="group transition-all duration-300 ease-in-out">
+            <span className={underline}>Blog</span>
+          </a>
+        </li>
           <li className="p-4">
             <a
               className="group transition-all duration-300 ease-in-out"
