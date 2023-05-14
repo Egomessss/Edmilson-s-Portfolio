@@ -14,10 +14,16 @@ function Projects() {
       </div>
 
       <a
-        className="block"
         href="https://github.com/Egomessss/Egomessss"
-        target="_blank">
-        <AiFillGithub className="h-[50px] text-4xl hover:text-neongreen" />
+        target="_blank"
+        className="group relative mx-3 w-36 px-6 py-3 font-bold text-white">
+        <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform border-2 border-white bg-black transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
+        <span className="absolute inset-0 h-full w-full border-4 border-white"></span>
+        <div className="relative flex items-center">
+          {" "}
+          <AiFillGithub className=" text-3xl text-white " />
+          <span className="font-bold text-white">GITHUB</span>
+        </div>
       </a>
       <div className="flex flex-col gap-y-48 md:gap-20">
         {/* firebnb */}
@@ -29,7 +35,7 @@ function Projects() {
           />
           <div className="absolute top-20 flex flex-col items-end gap-2 bg-black/80 px-2 md:top-24 md:left-96 md:w-[500px]">
             <h3 className="text-right">Airbnb Clone</h3>
-            <p className="text-right text-neongreen">
+            <p className="text-right text-white font-bold border-2 px-2">
               React | Tailwind | Mapbox Api
             </p>
             <p className=" text-right">
@@ -69,7 +75,7 @@ function Projects() {
             />
             <div className="absolute top-20 flex w-full flex-col items-center gap-2 bg-black/80 px-2 md:top-24 md:right-96 md:w-[500px]">
               <h3>My Personal Portfolio</h3>
-              <p className="m-2 text-neongreen">React | Tailwind</p>
+              <p className="m-2 text-white font-bold border-2 px-2">React | Tailwind</p>
               <p className=" text-center">A display of my creativity</p>
               <div className="flex justify-center gap-6 p-4 align-middle">
                 <a
@@ -103,7 +109,7 @@ function Projects() {
           />
           <div className="absolute top-20 flex flex-col items-start gap-2 bg-black/80 px-2 md:top-24 md:left-96 md:w-[500px]">
             <h3 className="text-left">u-Mov</h3>
-            <p className="text-left text-neongreen">
+            <p className="text-left text-white font-bold border-2 px-2">
               Typescript | Nextjs | Tailwind | Google API
             </p>
             <p className=" text-left">
@@ -122,15 +128,7 @@ function Projects() {
                   Live Demo
                 </span>
               </a>
-              <a
-                href="#_"
-                className="group  relative px-4 py-2 font-bold text-black">
-                <span className="absolute inset-0 h-full w-full -translate-x-2 -translate-y-2 transform border-2 border-white bg-black transition duration-300 ease-out group-hover:translate-x-0 group-hover:translate-y-0"></span>
-                <span className="absolute inset-0 h-full w-full border-2 border-white"></span>
-                <span className="relative font-aquirebold text-white">
-                  Code
-                </span>
-              </a>
+             
             </div>
           </div>
         </div>
@@ -142,7 +140,7 @@ function Projects() {
             />
             <div className="absolute top-20 flex w-full flex-col items-center gap-2 bg-black/80 px-2 md:top-24 md:right-96 md:w-[500px]">
               <h3>My Personal Blog</h3>
-              <p className="m-2 text-neongreen">
+              <p className="m-2 text-white font-bold border-2 px-2">
                 Next.js | Tailwind | GraphCMS
               </p>
               <p className=" text-center">
