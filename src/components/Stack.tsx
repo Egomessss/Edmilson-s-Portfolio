@@ -8,9 +8,9 @@ function Stack() {
   const divStyle =
     "relative px-6 py-3 font-bold text-black group w-[160px] md:w-[200px] h-[120px] flex items-center cursor-pointer"
   const spanStyle =
-    "absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-neongreen group-hover:translate-x-0 group-hover:translate-y-0"
-  const iconStyle = " md:p-2 text-black text-2xl md:text-7xl group relative flex"
-  const textStyle = "text-center text-black relative font-aquirebold"
+    "absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-black border-2 border-white group-hover:translate-x-0 group-hover:translate-y-0"
+  const iconStyle = " md:p-2 text-white text-2xl md:text-7xl group relative flex"
+  const textStyle = "text-center text-white relative font-aquirebold"
 
   return (
     <div>
