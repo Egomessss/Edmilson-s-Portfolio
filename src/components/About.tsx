@@ -21,7 +21,7 @@ function About() {
   })
 
   return (
-    <div className="h-[1700px] py-10 md:h-[1400px] md:py-20">
+    <div className="h-[1700px] py-10 md:h-[1300px] md:py-20">
       <div className="flex items-center gap-2">
         <BsArrowReturnRight className="text-3xl text-white" />
         <h2 id="about">About Me</h2>
