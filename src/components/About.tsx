@@ -30,7 +30,7 @@ function About() {
           <Cursor cursorColor="white" />
         </h3>
 
-        <div className="flex gap-2 py-8">
+        <div className="flex flex-wrap gap-2 gap-y-4 py-8">
           <a
             href="https://www.linkedin.com/in/egomessss/"
             target="_blank"
@@ -55,16 +55,7 @@ function About() {
               <span className="font-bold text-white">GITHUB</span>
             </div>
           </a>
-          {/* <a
-            href="https://www.linkedin.com/in/egomessss/"
-            target="_blank">
-            <AiFillLinkedin className="text-5xl hover:fill-current " />
-          </a>
-          <a
-            href="https://github.com/Egomessss/Egomessss"
-            target="_blank">
-            <AiFillGithub className="text-5xl hover:fill-current " />
-          </a> */}
+
           <a
             href="https://drive.google.com/file/d/1cEbbLkMagnuIny-cFhmmXP2PSwkC28UM/view?usp=sharing"
             target="_blank"

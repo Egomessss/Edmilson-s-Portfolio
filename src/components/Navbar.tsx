@@ -100,7 +100,7 @@ function Navbar() {
             leave="ease-in duration-200"
             leaveFrom="opacity-100"
             leaveTo="opacity-0">
-            <div className="fixed inset-0 bg-[#0E0E0E]" />
+            <div className="fixed inset-0 bg-black" />
           </Transition.Child>
 
           <div className="fixed top-0">
@@ -158,7 +158,7 @@ function Navbar() {
                     <div className="mt-20 flex flex-wrap">
                       <button
                         onClick={handleGmail}
-                        className="flex h-16 w-full items-center gap-2  bg-gradient-to-r from-[#4285F4]  via-[#D7322A] to-[#34A853] text-start">
+                        className="flex h-16 w-full items-center gap-2   bg-gradient-to-r from-[#000000]  via-[#000000] to-[#ffffff] text-start">
                         {/* change the text size */}
                         <SiGmail className="border-r-2 px-1 text-4xl md:text-7xl" />
                         {copied ? (
@@ -174,7 +174,7 @@ function Navbar() {
                       <a
                         href="https://www.linkedin.com/in/egomessss/"
                         target="_blank"
-                        className="flex h-16  w-full items-center gap-2 bg-[#0A66C2] text-start">
+                        className="flex h-16  w-full items-center gap-2 bg-gradient-to-r from-[#ffffff]  via-[#000000] to-[#000000] text-start">
                         <AiFillLinkedin className="border-r-2 px-1 text-4xl md:text-7xl" />
                         <h1 className="text-4xl text-white md:text-7xl">
                           Linkedin
@@ -183,7 +183,7 @@ function Navbar() {
                       <a
                         href="https://github.com/Egomessss/Egomessss"
                         target="_blank"
-                        className="flex h-16 w-full items-center gap-2 bg-[#161B22] text-start">
+                        className="flex h-16 w-full items-center gap-2  bg-gradient-to-r from-[#000000]  via-[#000000] to-[#ffffff] text-start">
                         <AiFillGithub className="border-r-2 px-1 text-4xl md:text-7xl" />
                         <h1 className="text-4xl text-white md:text-7xl">
                           Github
