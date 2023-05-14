@@ -5,6 +5,9 @@ import knowledge from "../assets/images/knowledge.png"
 import problems from "../assets/images/problems.png"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
+import { RiLightbulbFlashFill } from "react-icons/ri"
+import { SlMagnifier } from "react-icons/sl"
+import { VscDebugConsole } from "react-icons/vsc"
 
 function About() {
   const [text, count] = useTypewriter({
@@ -80,12 +83,7 @@ function About() {
             problems.
           </span>
         </p>
-
-        <img
-          className="h-40"
-          src={idea}
-          alt="man with a lamp head"
-        />
+        <RiLightbulbFlashFill className="text-7xl w-52" />
       </div>
 
       <br />
@@ -100,12 +98,7 @@ function About() {
           because I believe that knowledge is power and it will make me improve
           my technical abilities.
         </p>
-
-        <img
-          className="h-40"
-          src={knowledge}
-          alt="magnifiying glass"
-        />
+        <SlMagnifier className="text-7xl w-52" />
       </div>
 
       <br />
@@ -119,12 +112,7 @@ function About() {
             solutions to even the most difficult problems.
           </span>
         </p>
-
-        <img
-          className="h-40"
-          src={problems}
-          alt="problem solver"
-        />
+        <VscDebugConsole className="text-7xl w-52" />
       </div>
 
       <div className=" flex flex-col gap-1">

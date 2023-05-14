@@ -25,13 +25,13 @@ function Contacts() {
           onClick={handleGmail}
           className="flex h-16 w-full items-center gap-2  bg-gradient-to-r from-[#000000]  via-[#000000] to-[#ffffff] text-start hover:border-2">
           {/* change the text size */}
-          <SiGmail className=" px-1 py-2 text-4xl md:text-7xl" />
+          <SiGmail className=" px-1 py-4 text-4xl md:text-7xl" />
           {copied ? (
             <h1 className="border-l-2 px-2 text-4xl text-white md:text-5xl">
               Copied!
             </h1>
           ) : (
-            <h1 className="border-l-2 px-2 text-4xl text-white md:text-5xl">
+            <h1 className="border-l-2 px-3 text-4xl text-white md:text-5xl">
               Gmail
             </h1>
           )}
@@ -41,8 +41,8 @@ function Contacts() {
           target="_blank"
           aria-label="link to linkedin"
           className="flex h-16  w-full items-center gap-2 bg-gradient-to-r from-[#ffffff]  via-[#000000] to-[#000000] text-start hover:border-2">
-          <AiFillLinkedin className=" px-1 py-2 text-4xl md:text-7xl text-black" />
-          <h1 className="border-l-2 px-2 text-4xl text-black md:text-5xl">
+          <AiFillLinkedin className=" px-1 py-2 text-4xl text-black md:text-7xl" />
+          <h1 className="border-l-2 border-black px-2 text-4xl text-black md:text-5xl">
             Linkedin
           </h1>
         </a>

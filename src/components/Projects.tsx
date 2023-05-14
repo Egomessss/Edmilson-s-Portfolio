@@ -36,7 +36,7 @@ function Projects() {
           <div className="absolute top-20 flex flex-col items-end gap-2 bg-gradient-to-r from-[#000000]/50  via-[#000000] to-[#ffffff]/40 px-2 md:top-24 md:left-96 md:w-[500px]">
             <h3 className="text-right">Airbnb Clone</h3>
             <p className="text-right text-white font-bold border-2 px-2">
-              React | Tailwind | Mapbox Api
+              React | Tailwind CSS | Mapbox Api
             </p>
             <p className=" text-right">
               Airbnb clone with all the main navigation functionalities, which i
@@ -75,7 +75,7 @@ function Projects() {
             />
             <div className="absolute top-20 flex w-full flex-col items-center gap-2 bg-gradient-to-r from-[#000000]/50  via-[#000000] to-[#ffffff]/40 px-2 md:top-24 md:right-96 md:w-[500px]">
               <h3>My Personal Portfolio</h3>
-              <p className="m-2 text-white font-bold border-2 px-2">React | Tailwind</p>
+              <p className="m-2 text-white font-bold border-2 px-2">React | Tailwind CSS</p>
               <p className=" text-center">A display of my creativity</p>
               <div className="flex justify-center gap-6 p-4 align-middle">
                 <a
@@ -110,7 +110,7 @@ function Projects() {
           <div className="absolute top-20 flex flex-col items-start gap-2 bg-gradient-to-r from-[#000000]/50  via-[#000000] to-[#ffffff]/40 px-2 md:top-24 md:left-96 md:w-[500px]">
             <h3 className="text-left">u-Mov</h3>
             <p className="text-left text-white font-bold border-2 px-2">
-              Typescript | Nextjs | Tailwind | Google API
+              Typescript | Nextjs | Tailwind CSS | Google API
             </p>
             <p className=" text-left">
               You can change inside a house but not the outside
@@ -141,7 +141,7 @@ function Projects() {
             <div className="absolute top-20 flex w-full flex-col items-center gap-2 bg-gradient-to-r from-[#000000]/50  via-[#000000] to-[#ffffff]/40 px-2 md:top-24 md:right-96 md:w-[500px]">
               <h3>My Personal Blog</h3>
               <p className="m-2 text-white font-bold border-2 px-2">
-                Next.js | Tailwind | GraphCMS
+                Next.js | Tailwind CSS | GraphCMS
               </p>
               <p className=" text-center">
                 A display of my creativity and simplicity
