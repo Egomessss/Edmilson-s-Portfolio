@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai"
+import { MdDoneOutline } from "react-icons/md"
 import { HiPencilAlt } from "react-icons/hi"
 import { SiGmail } from "react-icons/si"
 import About from "./components/About"
@@ -14,7 +15,7 @@ function App() {
 
   const handleGmail = () => {
     navigator.clipboard.writeText("ed.gomes97@gmail.com")
-    setCopied(true!)
+    setCopied((prev)=>!prev)
   }
 
   return (
@@ -28,38 +29,39 @@ function App() {
       </div>
       <div>
         <div className="fixed left-0 top-96 z-50 hidden flex-col space-y-3 bg-transparent px-5 py-3 md:flex">
-          <a href="#">
-            <AiOutlineArrowUp className="border-r-2 px-1  text-5xl hover:fill-neongreen" />
+          <a
+            className="group transition-all duration-300 ease-in-out "
+            href="#">
+            <AiOutlineArrowUp className="border-r-2 bg-gradient-to-r  from-white to-white  bg-[length:0%_2px] bg-left-bottom bg-no-repeat px-1 text-5xl transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]" />
           </a>
-          <button
-            aria-label="copy gmail to clipboard"
-            onClick={handleGmail}
-            className="flex h-16 w-full items-center gap-2  text-start">
+
+          <button onClick={handleGmail} className="group transition-all duration-300 ease-in-out ">
             {copied ? (
-              <p className="border-r-2 px-1 font-bold">Copied!</p>
+              <MdDoneOutline className="border-r-2  bg-gradient-to-r from-white  to-white bg-[length:0%_2px]  bg-left-bottom bg-no-repeat px-2 text-5xl font-bold transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]"/>
+               
+             
             ) : (
-              <SiGmail className="border-r-2 px-2  text-5xl hover:fill-neongreen" />
+              <SiGmail className="border-r-2 bg-gradient-to-r  from-white  to-white bg-[length:0%_2px]  bg-left-bottom bg-no-repeat px-2 text-5xl  transition-all duration-500 ease-out  group-hover:bg-[length:100%_2px]" />
             )}
           </button>
           <a
-            href="https://www.linkedin.com/in/egomessss/"
-            target="_blank"
-            aria-label="link to linkedin"
-            className="flex h-16  w-full items-center gap-2  text-start">
-            <AiFillLinkedin className="border-r-2 px-1  text-5xl hover:fill-neongreen" />
+            className="group transition-all duration-300 ease-in-out "
+            href="https://www.linkedin.com/in/egomessss/">
+            <AiFillLinkedin className="border-r-2 bg-gradient-to-r  from-white to-white  bg-[length:0%_2px] bg-left-bottom bg-no-repeat px-1 text-5xl transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]" />
           </a>
           <a
-            href="https://github.com/Egomessss/Egomessss"
-            target="_blank"
-            className="flex h-16 w-full items-center gap-2  text-start">
-            <AiFillGithub className="border-r-2 px-1  text-5xl hover:fill-neongreen" />
+            className="group transition-all duration-300 ease-in-out "
+            href="https://github.com/Egomessss/Egomessss">
+            <AiFillGithub className="border-r-2 bg-gradient-to-r  from-white to-white  bg-[length:0%_2px] bg-left-bottom bg-no-repeat px-1 text-5xl transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]" />
           </a>
+
           <a
-            href="http://tecedblog.com/"
-            target="_blank"
-            className="flex w-full  flex-col items-center gap-2  border-r-2 px-1 text-start text-xs font-bold hover:text-neongreen ">
-            <HiPencilAlt className=" text-4xl hover:fill-neongreen" />
-            <span>BLOG</span>
+            className="group transition-all duration-300 ease-in-out "
+            href="http://tecedblog.com/">
+            <div className="flex flex-col  items-center justify-center  gap-2 border-r-2 bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-left-bottom bg-no-repeat px-1 text-xs transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]">
+              <HiPencilAlt className="text-4xl" />
+              <span className="font-bold">BLOG</span>
+            </div>
           </a>
         </div>
       </div>
