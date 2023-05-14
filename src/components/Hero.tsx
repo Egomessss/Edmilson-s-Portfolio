@@ -4,35 +4,37 @@ import image from "../assets/images/myself.png"
 
 function Hero() {
   const [text] = useTypewriter({
-    words: ["Creating", "Designing for", "Coding for"],
+    words: ["it is a habit", "it is a lifestyle", "it is a passion"],
     loop: true,
     delaySpeed: 2000,
   })
 
   return (
     // <div className="h-screen bg-hero bg-cover bg-center bg-no-repeat px-4 md:px-20 md:text-[50px] xl:px-52">
-    <div className="flex h-screen relative ">
-      <div className="h-full w-1/2"></div>
-      <div className="h-full w-1/2 bg-white"></div>
-      <h1 className="text-[600px] absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/3 drop-shadow-2xl">&</h1>
-      <img src={image} className="h-96 absolute bottom-0 left-1/2 transform -translate-x-1/2 " alt="" />
-      {/* <h1 className="text-[600px] absolute text-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 drop-shadow-2xl ">&</h1> */}
+    <div className="relative  flex h-[100vh] w-full ">
+      <Navbar />
+      <div className="relative h-full w-1/2">
+        <h1 className="] absolute right-0 top-[35%]  w-[9.5rem] text-3xl text-white drop-shadow-2xl lg:top-[15%] lg:right-44  lg:h-40 lg:w-[450px] lg:text-[80px]">
+          Creating Change
+        </h1>
+      </div>
+      <div className="relative h-full w-1/2 bg-white">
+        <h1 className="absolute left-0 bottom-1/3 w-48  text-3xl text-black drop-shadow-2xl lg:bottom-[35%] lg:left-44 lg:h-40 lg:w-[550px] lg:text-[80px]">
+          Developing Impact
+        </h1>
+      </div>
+      <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform  text-[200px]   drop-shadow-2xl lg:top-1/3 lg:text-[600px]">
+        &
+      </h1>
+      <h1 className="absolute top-[70%] left-[45%] w-80 -translate-x-1/2 -translate-y-1/2 transform text-sm drop-shadow-2xl lg:top-[75%] lg:left-[48%] lg:w-[550px] lg:text-2xl ">
+        Quality is not an act <span className="text-black">{text}</span>
+      </h1>
 
-      {/* <Navbar />
-      <div className="flex h-[600px] flex-col items-end justify-center md:h-[900px] md:gap-14">
-        <h1 className="whitespace-nowrap text-3xl md:text-[50px] lg:text-[70px] 2xl:text-[100px]">
-          Quality is not an act
-        </h1>
-        <h1 className="text-3xl md:text-[50px] lg:text-[70px] 2xl:text-[100px]">
-          it is a habit
-        </h1>
-        <h2 className="text-2xl text-white md:text-[50px] lg:text-[70px] 2xl:text-[80px]">
-          <span>
-            {text}
-            <Cursor cursorColor="white" /> impact
-          </span>
-        </h2>
-      </div> */}
+      <img
+        src={image}
+        className="absolute bottom-0 left-1/2 h-44 -translate-x-1/2 transform lg:h-72 "
+        alt=""
+      />
     </div>
   )
 }

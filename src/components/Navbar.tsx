@@ -12,7 +12,7 @@ function Navbar() {
   const closeModal = () => setIsOpen(false)
 
   const underline =
-    "bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+    "bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
 
   const handleAnchor = () => setIsOpen(false)
 
@@ -24,27 +24,27 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="flex h-24 items-center justify-between">
+      <div className=" absolute z-20 flex h-24 w-full items-center justify-between px-4">
         <a
-          className="group transition-all duration-300 ease-in-out"
+          className="group transition-all duration-300 ease-in-out "
           href="#">
           <h1 className="bg-gradient-to-r  from-white to-white bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]">
             EG
           </h1>
         </a>
 
-        <ul className="hidden whitespace-nowrap text-xl font-bold md:flex">
+        <ul className="hidden whitespace-nowrap text-xl font-bold xl:flex">
           <li className="p-4">
             <a
               href="http://tecedblog.com/"
               target="_blank"
-              className="group transition-all duration-300 ease-in-out">
+              className="group text-black transition-all duration-300 ease-in-out">
               <span className={underline}>Blog</span>
             </a>
           </li>
           <li className="p-4">
             <a
-              className="group transition-all duration-300 ease-in-out"
+              className="group text-black transition-all duration-300 ease-in-out"
               href="#about">
               <span className={underline}>About Me</span>
             </a>
@@ -52,21 +52,21 @@ function Navbar() {
 
           <li className="p-4">
             <a
-              className="group transition-all duration-300 ease-in-out"
+              className="group text-black transition-all duration-300 ease-in-out"
               href="#education">
               <span className={underline}>Education</span>
             </a>
           </li>
           <li className="p-4">
             <a
-              className="group transition-all duration-500 ease-in-out"
+              className="group text-black transition-all duration-500 ease-in-out"
               href="#projects">
               <span className={underline}>Projects</span>
             </a>
           </li>
           <li className="p-4">
             <a
-              className="group transition-all duration-300 ease-in-out"
+              className="group text-black transition-all duration-300 ease-in-out"
               href="#contacts">
               <span className={underline}>Contact Me</span>
             </a>
@@ -77,9 +77,9 @@ function Navbar() {
           onClick={handleModal}
           className="block md:hidden">
           {isOpen ? (
-            <RiCloseLine className="text-3xl" />
+            <RiCloseLine className="text-3xl text-black" />
           ) : (
-            <RiMenu5Line className="text-3xl" />
+            <RiMenu5Line className="text-3xl text-black" />
           )}
         </div>
       </div>
