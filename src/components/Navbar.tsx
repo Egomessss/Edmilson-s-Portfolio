@@ -174,9 +174,9 @@ function Navbar() {
                       <a
                         href="https://www.linkedin.com/in/egomessss/"
                         target="_blank"
-                        className="flex h-16  w-full items-center gap-2 bg-gradient-to-r from-[#ffffff]  via-[#000000] to-[#000000] text-start">
-                        <AiFillLinkedin className="border-r-2 border-black px-1 text-4xl md:text-7xl" />
-                        <h1 className="text-4xl text-white md:text-7xl">
+                        className="flex h-16  w-full items-center gap-2 bg-gradient-to-r from-[#ffffff]  via-[#ffffff] to-[#000000] text-start">
+                        <AiFillLinkedin className="border-r-2 border-black text-black px-1 text-4xl md:text-7xl" />
+                        <h1 className="text-4xl  md:text-7xl text-black">
                           Linkedin
                         </h1>
                       </a>
